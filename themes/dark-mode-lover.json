@@ -67,10 +67,10 @@
     "colors": {
         //? ─── Activity Bar ──────────────────────────────────────────────────────────────────
         "activityBar.activeBorder"                         : "#fff"     ,
-        "activityBar.background"                           : "#fac761"  ,
+        "activityBar.background"                           : "#000"     ,
         "activityBar.border"                               : "#161624"  ,
-        "activityBar.foreground"                           : "#000d"    ,
-        "activityBar.inactiveForeground"                   : "#d1934b"  ,
+        "activityBar.foreground"                           : "#fac761"  ,
+        "activityBar.inactiveForeground"                   : "#9e6f38"  ,
         "activityBarBadge.background"                      : "#0063d4"  ,
         "activityBarBadge.foreground"                      : "#fffc"    ,
 
@@ -196,7 +196,8 @@
 
         //? ─── Breadcrumb ────────────────────────────────────────────────────────────────────
         "breadcrumb.background"                            : "#242432"  ,
-        "breadcrumb.foreground"                            : "#78788fcc",
+        "breadcrumb.foreground"                            : "#81818fcc",
+        "breadcrumb.shadow"                                : "#00000024",
 
         //? ─── Inline Chat ───────────────────────────────────────────────────────────────────
         "inlineChat.background"                            : "#16161d"  ,
@@ -264,7 +265,7 @@
         "listFilterWidget.outline"                         : "#0063d4"  ,
 
         //? ─── Minimap ───────────────────────────────────────────────────────────────────────
-        "minimap.background"                               : "#1c1d26"  ,
+        "minimap.background"                               : "#1c1d26",
         "minimap.errorHighlight"                           : "#ff6666"  ,
         "minimap.findMatchHighlight"                       : "#695380"  ,
         "minimap.selectionHighlight"                       : "#4080ff40",
@@ -304,10 +305,10 @@
         "progressBar.background"                           : "#0063d4"  ,
 
         //? ─── Scrollbar ─────────────────────────────────────────────────────────────────────
-        "scrollbar.shadow"                                 : "#16162400",
-        "scrollbarSlider.activeBackground"                 : "#00000048",
-        "scrollbarSlider.background"                       : "#00000024",
-        "scrollbarSlider.hoverBackground"                  : "#00000036",
+        "scrollbar.shadow"                                 : "#00000000",
+        "scrollbarSlider.activeBackground"                 : "#3e405488",
+        "scrollbarSlider.background"                       : "#3e405455",
+        "scrollbarSlider.hoverBackground"                  : "#3e405488",
 
         //? ─── Settings ──────────────────────────────────────────────────────────────────────
         "settings.headerForeground"                        : "#cccac2cc",
@@ -320,12 +321,12 @@
         "sideBar.dropBackground"                           : "#70758033",
         "sideBarSectionHeader.background"                  : "#22232e"  ,
         "sideBarSectionHeader.border"                      : "#010103"  ,
-        "sideBarSectionHeader.foreground"                  : "#70758099",
+        "sideBarSectionHeader.foreground"                  : "#707580cc",
         "sideBarTitle.foreground"                          : "#fac761"  ,
-        "sideBarTitle.inactiveForeground"                  : "#70758099",
+        "sideBarTitle.inactiveForeground"                  : "#707580cc",
 
         //? ─── Status Bar ────────────────────────────────────────────────────────────────────
-        "statusBar.background"                             : "#16161d"  ,
+        "statusBar.background"                             : "#000"  ,
         "statusBar.border"                                 : "#010103"  ,
         "statusBar.debuggingBackground"                    : "#f29e74"  ,
         "statusBar.debuggingForeground"                    : "#242432"  ,
@@ -341,7 +342,7 @@
         //? ─── Tabs ──────────────────────────────────────────────────────────────────────────
         "tab.activeBackground"                             : "#242432"  ,
         "tab.activeBorder"                                 : "#0000"    ,
-        "tab.activeBorderTop"                              : "#0063d4"  ,
+        "tab.activeBorderTop"                              : "#fac761"  ,
         "tab.activeForeground"                             : "#cccac2"  ,
         "tab.background"                                   : "#242432"  ,
         "tab.border"                                       : "#161624"  ,
