@@ -21,6 +21,7 @@ Thumbs.db
 !.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/tasks.json
+settings.json
 
 # Test coverage
 coverage/
