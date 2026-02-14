@@ -1,6 +1,12 @@
 ## Changelog
 All notable changes to the "DarkMode Lover" extension will be documented in this file.
 
+### 0.8.2
+- Added a new icon for the extension in the marketplace.
+- Fixed a minor issue with the scrollbar colors not matching the theme.
+
+### v0.8.1
+- Fixed activity bar background color issue.
 
 ### v0.8.0
 - Major update with significant improvements and new features.
