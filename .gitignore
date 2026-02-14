@@ -17,11 +17,7 @@ pnpm-debug.log*
 Thumbs.db
 
 # VS Code workspace settings
-.vscode/*
-!.vscode/extensions.json
-!.vscode/launch.json
-!.vscode/tasks.json
-settings.json
+.vscode/
 
 # Test coverage
 coverage/
