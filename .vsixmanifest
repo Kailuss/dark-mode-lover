@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
 		<Metadata>
-			<Identity Language="en-US" Id="dark-mode-lover" Version="0.8.4a" Publisher="lovervoid" />
+			<Identity Language="en-US" Id="dark-mode-lover" Version="0.8.4-fix.1" Publisher="lovervoid" />
 			<DisplayName>DarkMode Lover</DisplayName>
 			<Description xml:space="preserve">Dark Mode Lover is a theme for Visual Studio Code, inspired by One Dark and Monokai. It offers a balanced contrast and broad language support, making it a great choice for developers who prefer dark themes.</Description>
 			<Tags>Vscode,Theme,theme,color-theme,__web_extension</Tags>
