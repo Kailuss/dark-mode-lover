@@ -9,8 +9,7 @@
 <br/>
 <div align="center">
 
-![Dark Mode Lover Theme Screenshot](https://github.com/Kailuss/dark-mode-lover/raw/HEAD/screenshot.png)
-
+![Dark Mode Lover Theme Screenshot](https://github.com/Kailuss/dark-mode-lover/raw/HEAD/screenshot.jpg)
 </div>
 
 <br/>
