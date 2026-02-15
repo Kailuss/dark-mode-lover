@@ -1,6 +1,11 @@
 ## Changelog
 All notable changes to the "DarkMode Lover" extension will be documented in this file.
 
+### 0.8.4
+- Updated the README with a new overview section and improved formatting.
+- Added a new screenshot showcasing the latest version of the theme.
+- Fixed minor typos and improved the overall presentation of the README.
+
 ### 0.8.2
 - Added a new icon for the extension in the marketplace.
 - Fixed a minor issue with the scrollbar colors not matching the theme.
