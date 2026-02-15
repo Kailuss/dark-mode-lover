@@ -2,7 +2,7 @@
 	"name": "dark-mode-lover",
 	"displayName": "Dark Mode Lover",
 	"description": "Dark Mode Lover is a theme for Visual Studio Code, inspired by One Dark and Monokai. It offers a balanced contrast and broad language support, making it a great choice for developers who prefer dark themes.",
-	"version": "0.8.4-fix.1",
+	"version": "0.8.4.1",
 	"publisher": "Lovervoid",
 	"engines": {
 		"vscode": "^1.13.0"
@@ -11,6 +11,10 @@
 		"Themes"
 	],
 	"icon": "icon.png",
+	"galleryBanner": {
+        "color": "#16161d",
+        "theme": "dark"
+    },
 	"contributes": {
 		"themes": [
 			{
