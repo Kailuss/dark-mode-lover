@@ -1,0 +1,26 @@
+# Files to exclude from the extension package
+
+# Screenshots and images not needed in the package
+screenshot.jpg
+screenshot.png
+screenshots/
+
+# Build outputs
+*.vsix
+
+# Git files
+.git/
+.gitignore
+
+# VS Code folder
+.vscode/
+
+# Development files
+*.log
+npm-debug.log*
+.DS_Store
+
+# Optional
+src/
+.editorconfig
+tsconfig.json
