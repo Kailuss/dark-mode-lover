@@ -374,8 +374,8 @@
 
         //? ─── Text ──────────────────────────────────────────────────────────────────────────
         "textBlockQuote.background"                        : "#242432"  ,
-        "textLink.activeForeground"                        : "#31a8ff"  ,
-        "textLink.foreground"                              : "#0063d4"  ,
+        "textLink.activeForeground"                        : "#3399ff"  ,
+        "textLink.foreground"                              : "#3366dd"  ,
         "textPreformat.foreground"                         : "#cccac2"  ,
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────
@@ -383,7 +383,7 @@
         "titleBar.activeForeground"                        : "#cccac2"  ,
         "titleBar.border"                                  : "#0000"    ,
         "titleBar.inactiveBackground"                      : "#16161d"  ,
-        "titleBar.inactiveForeground"                      : "#cccac299",
+        "titleBar.inactiveForeground"                      : "#cccac288",
 
         //? ─── Tree & Misc ───────────────────────────────────────────────────────────────────
         "tree.indentGuidesStroke"                          : "#8E8EAE56",
