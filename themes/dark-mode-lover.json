@@ -594,7 +594,7 @@
             }
         },
 
-        //! 5. KEYWORDS (Control Flow, Storage, Operators) ════════════════════════════════════
+        //! 5. KEYWORDS (Control Flow, Storage, Operators) ══════════════════════════════════
 
         //? ─── Control Flow ────────────────────────────────────────────────────────────────
         {
@@ -791,11 +791,20 @@
                 "punctuation.definition.block",
                 "punctuation.definition.tag",
                 "punctuation.definition.binding-pattern",
-                "punctuation.definition.parameters",
-                "punctuation.definition.string"
+                "punctuation.definition.parameters"
             ],
             "settings": {
                 "foreground": "#abb2bf",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Strings Punctuation",
+            "scope": [
+                "punctuation.definition.string"
+            ],
+            "settings": {
+                "foreground": "#516b3f",
                 "fontStyle": ""
             }
         },
