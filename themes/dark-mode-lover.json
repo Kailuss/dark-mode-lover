@@ -6,44 +6,44 @@
     "semanticTokenColors": {
 
         //? ─── Variables ─────────────────────────────────────────────────────────────────────
-        "variable"                : { "foreground": "#fff9"  , "fontStyle": ""            },
-        "variable.readonly"       : { "foreground": "#fff9"  , "fontStyle": ""            },
-        "variable.defaultLibrary" : { "foreground": "#fff9"  , "fontStyle": "italic"      },
-        "variable.modification"   : { "foreground": "#fff9"  , "fontStyle": "underline"   },
+        "variable"                : { "foreground": "#fff7"  , "fontStyle": ""            },
+        "variable.readonly"       : { "foreground": "#fff7"  , "fontStyle": ""            },
+        "variable.defaultLibrary" : { "foreground": "#fff7"  , "fontStyle": "italic"      },
+        "variable.modification"   : { "foreground": "#fff7"  , "fontStyle": "underline"   },
 
         //? ─── Properties ────────────────────────────────────────────────────────────────────
-        "property"                : { "foreground": "#fffd"  , "fontStyle": ""         },
-        "property.declaration"    : { "foreground": "#fffd"  , "fontStyle": "bold"     },
-        "property.readonly"       : { "foreground": "#fffd"  , "fontStyle": ""         },
-        "property.static"         : { "foreground": "#fffd"  , "fontStyle": "italic"   },
-        "property.defaultLibrary" : { "foreground": "#fffd"  , "fontStyle": ""         },
+        "property"                : { "foreground": "#fffb"  , "fontStyle": ""         },
+        "property.declaration"    : { "foreground": "#fffb"  , "fontStyle": ""     },
+        "property.readonly"       : { "foreground": "#fffb"  , "fontStyle": ""         },
+        "property.static"         : { "foreground": "#fffb"  , "fontStyle": "italic"   },
+        "property.defaultLibrary" : { "foreground": "#fffb"  , "fontStyle": ""         },
         //? ─── Parameters ────────────────────────────────────────────────────────────────────
         "parameter"               : { "foreground": "#fa5"       , "fontStyle": "italic" },
         "parameter.readonly"      : { "foreground": "#fb6"       , "fontStyle": "italic" },
 
         //? ─── Functions & Methods ───────────────────────────────────────────────────────────
         "function"                : { "foreground": "#6bf"  , "fontStyle": ""            },
-        "function.declaration"    : { "foreground": "#6bf"  , "fontStyle": "bold"        },
+        "function.declaration"    : { "foreground": "#6bf"  , "fontStyle": ""        },
         "function.async"          : { "foreground": "#6bf"  , "fontStyle": "italic"      },
         "function.defaultLibrary" : { "foreground": "#6bf"  , "fontStyle": ""            },
         "method"                  : { "foreground": "#6bf"  , "fontStyle": ""            },
-        "method.declaration"      : { "foreground": "#6bf"  , "fontStyle": "bold"        },
+        "method.declaration"      : { "foreground": "#6bf"  , "fontStyle": ""        },
         "method.static"           : { "foreground": "#6bf"  , "fontStyle": "italic"      },
         "method.async"            : { "foreground": "#6bf"  , "fontStyle": "italic"      },
         "method.defaultLibrary"   : { "foreground": "#6bf"  , "fontStyle": ""            },
         //? ─── Types & Classes ───────────────────────────────────────────────────────────────
-        "class"                   : { "foreground": "#fd7"  , "fontStyle": ""            },
-        "class.declaration"       : { "foreground": "#fd7"  , "fontStyle": "bold"        },
-        "class.defaultLibrary"    : { "foreground": "#fd7"  , "fontStyle": "italic"      },
-        "interface"               : { "foreground": "#fd7"  , "fontStyle": "italic"      },
-        "interface.declaration"   : { "foreground": "#fd7"  , "fontStyle": "italic bold" },
-        "struct"                  : { "foreground": "#fd7"  , "fontStyle": "bold"        },
-        "type"                    : { "foreground": "#7df"  , "fontStyle": ""            },
-        "type.defaultLibrary"     : { "foreground": "#7df"  , "fontStyle": "italic"      },
-        "namespace"               : { "foreground": "#7df"  , "fontStyle": ""            },
-        "enum"                    : { "foreground": "#7df"  , "fontStyle": "bold"        },
-        "enumMember"              : { "foreground": "#c86"  , "fontStyle": ""            },
-        "typeParameter"           : { "foreground": "#fac"  , "fontStyle": "italic"      },
+        "class"                   : { "foreground": "#fc6"  , "fontStyle": ""            },
+        "class.declaration"       : { "foreground": "#fc6"  , "fontStyle": ""        },
+        "class.defaultLibrary"    : { "foreground": "#fc6"  , "fontStyle": "italic"      },
+        "interface"               : { "foreground": "#fc6"  , "fontStyle": "italic"      },
+        "interface.declaration"   : { "foreground": "#fc6"  , "fontStyle": "italic" },
+        "struct"                  : { "foreground": "#fc6"  , "fontStyle": ""        },
+        "type"                    : { "foreground": "#9cf"  , "fontStyle": ""            },
+        "type.defaultLibrary"     : { "foreground": "#9cf"  , "fontStyle": "italic"      },
+        "namespace"               : { "foreground": "#9cf"  , "fontStyle": ""            },
+        "enum"                    : { "foreground": "#9cf"  , "fontStyle": ""        },
+        "enumMember"              : { "foreground": "#b75"  , "fontStyle": ""            },
+        "typeParameter"           : { "foreground": "#fab"  , "fontStyle": "italic"      },
 
         //? ─── Keywords & Modifiers ──────────────────────────────────────────────────────────
         "keyword"                 : { "foreground": "#f7a"  , "fontStyle": "italic"      },
@@ -54,13 +54,13 @@
         "macro"                   : { "foreground": "#fff2" , "fontStyle": "italic"      },
 
         //? ─── Special Modifiers (wildcards) ─────────────────────────────────────────────────
-        "*.declaration"           : { "fontStyle" : "bold"                                 },
+        "*.declaration"           : { "fontStyle" : ""                                 },
         "*.deprecated"            : { "fontStyle" : "strikethrough"                        },
         "*.defaultLibrary"        : { "foreground": "#b7f"                               },
         "*.modification"          : { "fontStyle" : "underline"                            },
         "*.documentation"         : { "fontStyle" : "italic"                               },
         "*.abstract"              : { "fontStyle" : "italic"                               },
-        "*.readonly"              : { "fontStyle" : "bold"                                 }
+        "*.readonly"              : { "fontStyle" : ""                                 }
     },
 
     "colors": {
@@ -139,10 +139,10 @@
         "editor.wordHighlightStrongBorder"                 : "#88dd6680",
 
         //? ─── Editor Bracket Highlight ──────────────────────────────────────────────────────
-        "editorBracketHighlight.foreground1"               : "#d94"  ,
-        "editorBracketHighlight.foreground2"               : "#94d"  ,
-        "editorBracketHighlight.foreground3"               : "#56e"  ,
-        "editorBracketHighlight.foreground4"               : "#4cd"  ,
+        "editorBracketHighlight.foreground1"               : "#e9aa44"  ,
+        "editorBracketHighlight.foreground2"               : "#46f"  ,
+        "editorBracketHighlight.foreground3"               : "#4ed"  ,
+        "editorBracketHighlight.foreground4"               : "#4d7"  ,
         "editorBracketMatch.background"                    : "#5c606b4d",
         "editorBracketMatch.border"                        : "#5c606b2d",
         "editorBracketPairGuide.activeBackground1"         : "#4070ff80",
@@ -470,7 +470,7 @@
         {
             "name": "Other Constants",
             "scope": ["constant.other", "support.constant"],
-            "settings": { "foreground": "#fc6" }
+            "settings": { "foreground": "#b7f" }
         },
         {
             "name": "Character Escapes",
@@ -570,7 +570,7 @@
             ],
             "settings": {
                 "foreground": "#6bf",
-                "fontStyle": "bold"
+                "fontStyle": ""
             }
         },
         {
@@ -599,7 +599,7 @@
             ],
             "settings": {
                 "foreground": "#fc7",
-                "fontStyle": "bold"
+                "fontStyle": ""
             }
         },
 
@@ -686,12 +686,12 @@
         {
             "name": "Variables",
             "scope": ["variable", "variable.other", "variable.other.readwrite"],
-            "settings": { "foreground": "#fff9" }
+            "settings": { "foreground": "#fff7" }
         },
         {
             "name": "Variable Properties",
             "scope": ["variable.other.property", "variable.object.property", "variable.other.object"],
-            "settings": { "foreground": "#fffd" }
+            "settings": { "foreground": "#fffa" }
         },
         {
             "name": "Parameters",
@@ -735,13 +735,13 @@
             "scope": ["markup.heading", "entity.name.section"],
             "settings": {
                 "foreground": "#e66",
-                "fontStyle": "bold"
+                "fontStyle": ""
             }
         },
         {
             "name": "Markup Bold",
             "scope": ["markup.bold"],
-            "settings": { "fontStyle": "bold" }
+            "settings": { "fontStyle": "" }
         },
         {
             "name": "Markup Italic",
@@ -953,7 +953,7 @@
             "scope": ["support.function.magic", "support.variable.magic"],
             "settings": {
                 "foreground": "#cae",
-                "fontStyle": "bold"
+                "fontStyle": ""
             }
         },
 
@@ -977,7 +977,7 @@
             ],
             "settings": {
                 "foreground": "#8cf",
-                "fontStyle": "bold"
+                "fontStyle": ""
             }
         },
 
