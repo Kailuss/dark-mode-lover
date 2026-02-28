@@ -4,7 +4,7 @@
 
 ## Overview
 
-**Dark Mode Lover** transforms your Visual Studio Code into a beautiful, eye-friendly workspace. This theme is designed to reduce eye strain during extended coding sessions while maintaining excellent code readability through thoughtful color choices and contrast ratios.
+**Dark Mode Lover** brings a polished, eye-friendly aesthetic to Visual Studio Code. Built for developers who spend long hours coding, the theme balances soothing dark tones with high contrast for clarity and comfort. We're continually updating it based on community input.
 
 <br/>
 <div align="center">
@@ -36,6 +36,8 @@
 
 **That's it!** Your editor is now transformed.
 <br/><br/>
+> **Thank you** for trying Dark Mode Lover! Your feedback drives our improvements—please share your thoughts and stay tuned for regular updates and new releases.
+<br/><br/>
 
 ## ◾ What's Included
 
@@ -49,11 +51,12 @@
 
 ## ◾ Technical Details
 
-  - **Version:** 0.8.4
   - **Requirements:** VS Code 1.13.0 or higher
   - **Platform:** Windows, macOS, Linux
   - **Languages:** 20+ supported
   - **License:** MIT
+<br/><br/>
+> 🌈 **Looking ahead:** as we approach version 1.0, expect multiple new color variations and theme packages based on community requests.
 <br/><br/>
 
 ## ◾ Need Help or Have Ideas?
