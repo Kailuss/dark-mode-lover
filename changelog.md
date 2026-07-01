@@ -1,6 +1,12 @@
 ## Changelog
 All notable changes to the "DarkMode Lover" extension will be documented in this file.
 
+### 0.8.34
+- Modularized the dark themes into a shared syntax layer (`dark-mode-syntax.json`) included by Lover and Wasp, following VS Code's Dark Modern pattern.
+- Wasp now colors code identically to Lover, with its brackets, accent borders and shadows aligned to the primary theme (amber accent).
+- Added modern workbench colors (command center, sticky scroll, inlay hints, ghost text, folding controls, and more).
+- Added `$schema` for editor validation and removed invalid/deprecated color keys.
+
 ### 0.8.4
 - Updated the README with a new overview section and improved formatting.
 - Added a new screenshot showcasing the latest version of the theme.

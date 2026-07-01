@@ -24,3 +24,10 @@ npm-debug.log*
 src/
 .editorconfig
 tsconfig.json
+
+# Claude Code (local only, never publish)
+CLAUDE.md
+.claude/
+
+# Unpublished / WIP theme (not registered in package.json)
+themes/dark-mode-hater.json
