@@ -5,7 +5,7 @@
 	"version": "0.8.34",
 	"publisher": "Lovervoid",
 	"engines": {
-		"vscode": "^1.13.0"
+		"vscode": "^1.70.0"
 	},
 	"categories": [
 		"Themes"
@@ -40,10 +40,5 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Kailuss/dark-mode-lover.git"
-	},
-	"__metadata": {
-		"size": 30343,
-		"installedTimestamp": 1760192903439,
-		"targetPlatform": "undefined"
 	}
 }

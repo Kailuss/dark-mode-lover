@@ -24,3 +24,12 @@ npm-debug.log*
 src/
 .editorconfig
 tsconfig.json
+
+# Only the two docs the marketplace renders travel. Written as a PATTERN
+# and not one by one: the file left out is always the NEXT one.
+*.md
+!README.md
+!CHANGELOG.md
+
+# Unpublished / WIP theme (not registered in package.json)
+themes/dark-mode-hater.json
