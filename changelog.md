@@ -1,6 +1,12 @@
 ## Changelog
 All notable changes to the "DarkMode Lover" extension will be documented in this file.
 
+### 0.9.0
+- Added six new dark accent variants — **Ruby**, **Fire**, **Leaf**, **Berry**, **Sea** (teal), and **Salt** (monochrome) — bringing the family to eight themes.
+- All variants share the same neutral workbench palette and the shared syntax layer, so they color code identically and differ only in their accent (and a complementary badge).
+- Refreshed the primary **Lover** UI with a warmer, calmer neutral gray palette (unified with Wasp) for a more cohesive workbench.
+- The window title bar is now tinted with each theme's accent color.
+
 ### 0.8.35
 - Modularized the dark themes into a shared syntax layer (`dark-mode-syntax.json`) included by Lover and Wasp, following VS Code's Dark Modern pattern.
 - Wasp now colors code identically to Lover, with its brackets, accent borders and shadows aligned to the primary theme (amber accent).
