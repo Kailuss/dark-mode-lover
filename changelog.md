@@ -1,6 +1,14 @@
 ## Changelog
 All notable changes to the "DarkMode Lover" extension will be documented in this file.
 
+### 0.9.1
+- Added a seventh variant, **Ash** — a dimmer monochrome companion to Salt.
+- Muted the inactive activity-bar icons on every variant so they read clearly against the active ones (matching Wasp).
+- Reworked accent contrast across the family: each theme now uses light or dark text on its accent based on the accent's brightness, so buttons, menus and selections stay readable. Badges switched to vivid complementary colors with legible foregrounds.
+- Warmed **Ruby** toward a subtler rosy red and pushed **Sea** to a brighter Caribbean teal.
+- Made non-active window titles legible again (opaque muted tone instead of a faint alpha) and fixed Lover's inactive title.
+- The minimap scrollbar now uses a neutral gray instead of the accent color.
+
 ### 0.9.0
 - Added six new dark accent variants — **Ruby**, **Fire**, **Leaf**, **Berry**, **Sea** (teal), and **Salt** (monochrome) — bringing the family to eight themes.
 - All variants share the same neutral workbench palette and the shared syntax layer, so they color code identically and differ only in their accent (and a complementary badge).

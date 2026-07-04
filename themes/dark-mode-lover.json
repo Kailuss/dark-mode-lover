@@ -1,7 +1,7 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "name": "Dark Mode Lover",
-    "type": "dark",
+    "name": "Dark Mode Lover"                ,
+    "type": "dark"                           ,
     "semanticHighlighting": true,
     "include": "./dark-mode-syntax.json",
 
@@ -238,9 +238,9 @@
         "minimap.errorHighlight"                           : "#f66"     ,
         "minimap.findMatchHighlight"                       : "#69538099",
         "minimap.selectionHighlight"                       : "#25b4"    ,
-        "minimapSlider.background"                         : "#38f3"    ,
-        "minimapSlider.hoverBackground"                    : "#38f3"    ,
-        "minimapSlider.activeBackground"                   : "#38f6"    ,
+        "minimapSlider.background"                         : "#70758020",
+        "minimapSlider.hoverBackground"                    : "#70758033",
+        "minimapSlider.activeBackground"                   : "#70758055",
         "minimapGutter.addedBackground"                    : "#8d73"    ,
         "minimapGutter.deletedBackground"                  : "#f884"    ,
         "minimapGutter.modifiedBackground"                 : "#66ccff36",
@@ -347,10 +347,10 @@
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────
         "titleBar.activeBackground"                        : "#000" ,
-        "titleBar.activeForeground"                        : "#49fc",
+        "titleBar.activeForeground"                        : "#49f" ,
         "titleBar.border"                                  : "#0000",
         "titleBar.inactiveBackground"                      : "#000" ,
-        "titleBar.inactiveForeground"                      : "#49f9",
+        "titleBar.inactiveForeground"                      : "#48c" ,
 
         //? ─── Tree & Misc ───────────────────────────────────────────────────────────────────
         "tree.indentGuidesStroke"                          : "#8E8EAE56",

@@ -40,7 +40,7 @@
         "activityBar.background"                           : "#000"   ,
         "activityBar.border"                               : "#161624",
         "activityBar.foreground"                           : "#eef"   ,
-        "activityBar.inactiveForeground"                   : "#bbc"   ,
+        "activityBar.inactiveForeground"                   : "#889"   ,
         "activityBarBadge.background"                      : "#778"   ,
         "activityBarBadge.foreground"                      : "#fff"   ,
 
@@ -238,9 +238,9 @@
         "minimap.errorHighlight"                           : "#f66"     ,
         "minimap.findMatchHighlight"                       : "#69538099",
         "minimap.selectionHighlight"                       : "#bbc4"    ,
-        "minimapSlider.background"                         : "#dde3"    ,
-        "minimapSlider.hoverBackground"                    : "#dde3"    ,
-        "minimapSlider.activeBackground"                   : "#dde6"    ,
+        "minimapSlider.background"                         : "#70758020",
+        "minimapSlider.hoverBackground"                    : "#70758033",
+        "minimapSlider.activeBackground"                   : "#70758055",
         "minimapGutter.addedBackground"                    : "#8d73"    ,
         "minimapGutter.deletedBackground"                  : "#f884"    ,
         "minimapGutter.modifiedBackground"                 : "#66ccff36",
@@ -347,10 +347,10 @@
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────
         "titleBar.activeBackground"                        : "#000" ,
-        "titleBar.activeForeground"                        : "#eefc",
+        "titleBar.activeForeground"                        : "#eef" ,
         "titleBar.border"                                  : "#0000",
         "titleBar.inactiveBackground"                      : "#000" ,
-        "titleBar.inactiveForeground"                      : "#eef9",
+        "titleBar.inactiveForeground"                      : "#889" ,
 
         //? ─── Tree & Misc ───────────────────────────────────────────────────────────────────
         "tree.indentGuidesStroke"                          : "#8E8EAE56",
