@@ -23,7 +23,7 @@
         "editorInlayHint.parameterForeground"              : "#fa5"     ,
         "editorGhostText.foreground"                       : "#70758099",
         "editorGutter.foldingControlForeground"            : "#707580"  ,
-        "sash.hoverBorder"                                 : "#b5f"     ,
+        "sash.hoverBorder"                                 : "#a4e"     ,
         "toolbar.hoverBackground"                          : "#70758033",
         "terminalStickyScroll.background"                  : "#16161d"  ,
 
@@ -32,7 +32,7 @@
         "menu.foreground"                                   : "#cccac2"  ,
         "menu.border"                                       : "#70758045",
         "menu.separatorBackground"                          : "#70758045",
-        "menu.selectionBackground"                          : "#a3e"     ,
+        "menu.selectionBackground"                          : "#93d"     ,
         "menu.selectionForeground"                          : "#fff"     ,
 
         //? ─── Activity Bar ──────────────────────────────────────────────────────────────────
@@ -40,18 +40,18 @@
         "activityBar.background"                           : "#000"   ,
         "activityBar.border"                               : "#161624",
         "activityBar.foreground"                           : "#c7f"   ,
-        "activityBar.inactiveForeground"                   : "#a3e"   ,
-        "activityBarBadge.background"                      : "#e94"   ,
-        "activityBarBadge.foreground"                      : "#fff"   ,
+        "activityBar.inactiveForeground"                   : "#857"   ,
+        "activityBarBadge.background"                      : "#cd5"   ,
+        "activityBarBadge.foreground"                      : "#16161d",
 
         //? ─── Badge ─────────────────────────────────────────────────────────────────────────
-        "badge.background"                                 : "#e94",
-        "badge.foreground"                                 : "#fff",
+        "badge.background"                                 : "#cd5"   ,
+        "badge.foreground"                                 : "#16161d",
 
         //? ─── Buttons ───────────────────────────────────────────────────────────────────────
-        "button.background"                                : "#a3e" ,
+        "button.background"                                : "#93d" ,
         "button.foreground"                                : "#fffc",
-        "button.hoverBackground"                           : "#b5f" ,
+        "button.hoverBackground"                           : "#a4e" ,
         "button.secondaryBackground"                       : "#fff2",
         "button.secondaryForeground"                       : "#fff9",
         "button.secondaryHoverBackground"                  : "#fff3",
@@ -64,10 +64,10 @@
 
         //? ─── General ───────────────────────────────────────────────────────────────────────
         "descriptionForeground"                            : "#707580",
-        "focusBorder"                                      : "#a3e"   ,
+        "focusBorder"                                      : "#93d"   ,
         "foreground"                                       : "#707580",
         "icon.foreground"                                  : "#707580",
-        "selection.background"                             : "#a3e4"  ,
+        "selection.background"                             : "#93d4"  ,
 
         //? ─── Diff Editor ──────────────────────────────────────────────────────────────────
         "diffEditor.diagonalFill"                          : "#161624",
@@ -117,7 +117,7 @@
 
         //? ─── Editor Code Lens & Cursor ─────────────────────────────────────────────────────
         "editorCodeLens.foreground"                        : "#454960",
-        "editorCursor.foreground"                          : "#b4f"   ,
+        "editorCursor.foreground"                          : "#b5f"   ,
         "editorError.foreground"                           : "#f66"   ,
 
         //? ─── Editor Groups & Tabs Header ───────────────────────────────────────────────────
@@ -143,7 +143,7 @@
         "editorLineNumber.foreground"                      : "#363648",
 
         //? ─── Editor Links ──────────────────────────────────────────────────────────────────
-        "editorLink.activeForeground"                      : "#b4f",
+        "editorLink.activeForeground"                      : "#b5f",
 
         //? ─── Editor Marker Navigation ──────────────────────────────────────────────────────
         "editorMarkerNavigation.background"                : "#202032",
@@ -176,12 +176,12 @@
         //? ─── Quick Input ───────────────────────────────────────────────────────────────────
         "quickInput.background"                            : "#111118"  ,
         "quickInput.foreground"                            : "#cccac2ee",
-        "quickInputList.focusBackground"                   : "#b5f"     ,
+        "quickInputList.focusBackground"                   : "#a4e"     ,
         "quickInputList.focusForeground"                   : "#16161d"  ,
-        "quickInputList.focusIconForeground"               : "#a3e"     ,
+        "quickInputList.focusIconForeground"               : "#93d"     ,
 
         //? ─── Extension Buttons ─────────────────────────────────────────────────────────────
-        "extensionButton.prominentBackground"              : "#93d" ,
+        "extensionButton.prominentBackground"              : "#82c" ,
         "extensionButton.prominentForeground"              : "#fffc",
         "extensionButton.prominentHoverBackground"         : "#d8f" ,
 
@@ -198,15 +198,15 @@
         "input.border"                                     : "#70758045",
         "input.foreground"                                 : "#cccac2"  ,
         "input.placeholderForeground"                      : "#70758080",
-        "inputOption.activeBackground"                     : "#b5f3"    ,
-        "inputOption.activeBorder"                         : "#b5f5"    ,
-        "inputOption.activeForeground"                     : "#b4f"     ,
+        "inputOption.activeBackground"                     : "#a4e3"    ,
+        "inputOption.activeBorder"                         : "#a4e5"    ,
+        "inputOption.activeForeground"                     : "#b5f"     ,
         "inputValidation.errorBackground"                  : "#1c1d26"  ,
         "inputValidation.errorBorder"                      : "#f66"     ,
         "inputValidation.infoBackground"                   : "#1c1d26"  ,
         "inputValidation.infoBorder"                       : "#5ccfe6"  ,
         "inputValidation.warningBackground"                : "#1c1d26"  ,
-        "inputValidation.warningBorder"                    : "#b5f"     ,
+        "inputValidation.warningBorder"                    : "#a4e"     ,
 
         //? ─── Keybinding Label ──────────────────────────────────────────────────────────────
         "keybindingLabel.background"                       : "#7075801a",
@@ -224,23 +224,23 @@
         "list.focusBackground"                             : "#63759926",
         "list.focusForeground"                             : "#cccac2"  ,
         "list.focusOutline"                                : "#00000024",
-        "list.highlightForeground"                         : "#b4f"     ,
+        "list.highlightForeground"                         : "#b5f"     ,
         "list.hoverBackground"                             : "#63759926",
         "list.inactiveSelectionBackground"                 : "#69758c1f",
         "list.inactiveSelectionForeground"                 : "#707580"  ,
         "list.invalidItemForeground"                       : "#7075804d",
         "listFilterWidget.background"                      : "#202032"  ,
         "listFilterWidget.noMatchesOutline"                : "#f66"     ,
-        "listFilterWidget.outline"                         : "#b5f"     ,
+        "listFilterWidget.outline"                         : "#a4e"     ,
 
         //? ─── Minimap ───────────────────────────────────────────────────────────────────────
         "minimap.background"                               : "#1c1d26"  ,
         "minimap.errorHighlight"                           : "#f66"     ,
         "minimap.findMatchHighlight"                       : "#69538099",
-        "minimap.selectionHighlight"                       : "#a3e4"    ,
-        "minimapSlider.background"                         : "#b5f3"    ,
-        "minimapSlider.hoverBackground"                    : "#b5f3"    ,
-        "minimapSlider.activeBackground"                   : "#b5f6"    ,
+        "minimap.selectionHighlight"                       : "#93d4"    ,
+        "minimapSlider.background"                         : "#70758020",
+        "minimapSlider.hoverBackground"                    : "#70758033",
+        "minimapSlider.activeBackground"                   : "#70758055",
         "minimapGutter.addedBackground"                    : "#8d73"    ,
         "minimapGutter.deletedBackground"                  : "#f884"    ,
         "minimapGutter.modifiedBackground"                 : "#66ccff36",
@@ -248,19 +248,19 @@
         //? ─── Panel ─────────────────────────────────────────────────────────────────────────
         "panel.background"                                 : "#16161d",
         "panel.border"                                     : "#010103",
-        "panelTitle.activeBorder"                          : "#b5f"   ,
+        "panelTitle.activeBorder"                          : "#a4e"   ,
         "panelTitle.activeForeground"                      : "#cccac2",
         "panelTitle.inactiveForeground"                    : "#707580",
 
         //? ─── Peek View ─────────────────────────────────────────────────────────────────────
-        "peekView.border"                                  : "#b5f9"    ,
+        "peekView.border"                                  : "#a4e9"    ,
         "peekViewEditor.background"                        : "#16161d"  ,
-        "peekViewEditor.matchHighlightBackground"          : "#b5f6"    ,
-        "peekViewEditor.matchHighlightBorder"              : "#b5f9"    ,
+        "peekViewEditor.matchHighlightBackground"          : "#a4e6"    ,
+        "peekViewEditor.matchHighlightBorder"              : "#a4e9"    ,
         "peekViewResult.background"                        : "#16161d"  ,
         "peekViewResult.fileForeground"                    : "#cccac2"  ,
         "peekViewResult.lineForeground"                    : "#707580"  ,
-        "peekViewResult.matchHighlightBackground"          : "#b5f6"    ,
+        "peekViewResult.matchHighlightBackground"          : "#a4e6"    ,
         "peekViewResult.selectionBackground"               : "#63759926",
         "peekViewTitle.background"                         : "#63759926",
         "peekViewTitleDescription.foreground"              : "#707580"  ,
@@ -271,7 +271,7 @@
         "pickerGroup.foreground"                           : "#70758080",
 
         //? ─── Progress Bar ──────────────────────────────────────────────────────────────────
-        "progressBar.background"                           : "#b5f",
+        "progressBar.background"                           : "#a4e",
 
         //? ─── Scrollbar ─────────────────────────────────────────────────────────────────────
         "scrollbar.shadow"                                 : "#00000000",
@@ -304,13 +304,13 @@
         "statusBarItem.hoverBackground"                    : "#70758033",
         "statusBarItem.prominentBackground"                : "#161624"  ,
         "statusBarItem.prominentHoverBackground"           : "#00000030",
-        "statusBarItem.remoteBackground"                   : "#93d"     ,
+        "statusBarItem.remoteBackground"                   : "#82c"     ,
         "statusBarItem.remoteForeground"                   : "#fffc"    ,
 
         //? ─── Tabs ──────────────────────────────────────────────────────────────────────────
         "tab.activeBackground"                             : "#242432",
         "tab.activeBorder"                                 : "#0000"  ,
-        "tab.activeBorderTop"                              : "#b5f"   ,
+        "tab.activeBorderTop"                              : "#a4e"   ,
         "tab.activeForeground"                             : "#cccac2",
         "tab.border"                                       : "#161624",
         "tab.inactiveBackground"                           : "#16161d",
@@ -341,21 +341,21 @@
 
         //? ─── Text ──────────────────────────────────────────────────────────────────────────
         "textBlockQuote.background"                        : "#242432",
-        "textLink.activeForeground"                        : "#b5f"   ,
-        "textLink.foreground"                              : "#a3e"   ,
+        "textLink.activeForeground"                        : "#a4e"   ,
+        "textLink.foreground"                              : "#93d"   ,
         "textPreformat.foreground"                         : "#cccac2",
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────
         "titleBar.activeBackground"                        : "#000" ,
-        "titleBar.activeForeground"                        : "#c7fc",
+        "titleBar.activeForeground"                        : "#c7f" ,
         "titleBar.border"                                  : "#0000",
         "titleBar.inactiveBackground"                      : "#000" ,
-        "titleBar.inactiveForeground"                      : "#c7f9",
+        "titleBar.inactiveForeground"                      : "#857" ,
 
         //? ─── Tree & Misc ───────────────────────────────────────────────────────────────────
         "tree.indentGuidesStroke"                          : "#8E8EAE56",
         "walkThrough.embeddedEditorBackground"             : "#202032"  ,
-        "welcomePage.progress.background"                  : "#a3e6"    ,
+        "welcomePage.progress.background"                  : "#93d6"    ,
         "welcomePage.tileBackground"                       : "#242432"  ,
         "widget.border"                                    : "#fff1"    ,
         "window.activeBorder"                              : "#1c1d26"
