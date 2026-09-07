@@ -21,17 +21,17 @@
 
 ## Overview
 
-**Dark Mode Lover** brings a polished, eye-friendly aesthetic to Visual Studio Code. Built for developers who spend long hours coding, it balances soothing dark tones with high contrast for clarity and comfort — and now ships as a **family of eight themes** that share the exact same syntax highlighting, so you can switch accent color without ever relearning your code's colors.
+**Dark Mode Lover** brings a polished, eye-friendly aesthetic to Visual Studio Code. Built for developers who spend long hours coding, it balances soothing dark tones with high contrast for clarity and comfort. It now ships as a **family of nine themes** that share the exact same syntax highlighting, so you can switch accent color without ever relearning your code's colors.
 
 <br/>
 
 ## The Theme Family
 
-Every variant is built on one shared syntax layer and one neutral workbench palette. They color your code **identically** — only the accent (buttons, focus, active tabs, title bar, links) and a complementary badge change. Pick the mood that fits your day.
+Every variant is built on one shared syntax layer and one neutral workbench palette. They color your code **identically**: only the accent (buttons, focus, active tabs, title bar, links) and a complementary badge change. Pick the mood that fits your day.
 
 | Theme | Accent | Feel |
 |-------|:------:|------|
-| **Dark Mode Lover** | Blue | The original — balanced and calm |
+| **Dark Mode Lover** | Blue | The original, balanced and calm |
 | **Wasp** | Amber | Warm, high-energy |
 | **Fire** | Orange | Bold and vivid |
 | **Ruby** | Crimson | Rich and confident |
@@ -39,22 +39,23 @@ Every variant is built on one shared syntax layer and one neutral workbench pale
 | **Berry** | Purple | Playful and creative |
 | **Sea** | Teal | Cool and focused |
 | **Salt** | Monochrome | Minimal, distraction-free |
+| **Ash** | Dim monochrome | Quieter still, a dimmer Salt |
 
-> Switch anytime via `Preferences > Color Theme` — your syntax colors stay consistent across all eight.
+> Switch anytime via `Preferences > Color Theme`. Your syntax colors stay consistent across all nine.
 
 <br/>
 
 ## ◾ Why You'll Love It
 
-  🔹 **Beautiful & Balanced.** Every color is carefully selected to create harmony. Your code won't just run well — it will look stunning.
+  🔹 **Beautiful & Balanced.** Every color is carefully selected to create harmony. Your code won't just run well: it will look stunning.
 
   🔹 **Easy on the Eyes.** Optimized contrast ratios let you code comfortably for hours, day or night.
 
   🔹 **Works with Everything.** JavaScript, TypeScript, Python, C#, Java, SQL, HTML, CSS, Markdown… 20+ languages beautifully highlighted.
 
-  🔹 **Smart Highlighting.** Advanced semantic token support means your code isn't just colored — it's intelligently differentiated. Variables, functions, classes, and keywords each get a distinct, meaningful appearance.
+  🔹 **Smart Highlighting.** Advanced semantic token support means your code isn't just colored: it's intelligently differentiated. Variables, functions, classes, and keywords each get a distinct, meaningful appearance.
 
-  🔹 **One Family, Eight Moods.** A unified design system: switch accent color instantly while keeping the same trusted syntax highlighting.
+  🔹 **One Family, Nine Moods.** A unified design system: switch accent color instantly while keeping the same trusted syntax highlighting.
 
 <br/>
 
@@ -67,20 +68,20 @@ Every variant is built on one shared syntax layer and one neutral workbench pale
 
 **That's it!** Your editor is now transformed.
 
-> **Thank you** for trying Dark Mode Lover! Your feedback drives our improvements — please share your thoughts and stay tuned for regular updates.
+> **Thank you** for trying Dark Mode Lover! Your feedback drives our improvements. Please share your thoughts and stay tuned for regular updates.
 
 <br/>
 
 ## ◾ What's Included
 
-  - **8 accent variants** — Lover, Wasp, Fire, Ruby, Leaf, Berry, Sea, and Salt
-  - **Shared syntax layer** — every theme colors code identically; only the UI accent changes
-  - **Complete UI design** — activity bar, sidebar, terminal, title bar, and more
-  - **11 token categories** — comments, strings, functions, keywords… all perfectly styled
-  - **Semantic highlighting** — variables, properties, and parameters intelligently colored
-  - **Bracket colorization** — 4-color rotation for easy nesting visualization
-  - **Git integration colors** — clear diff highlighting for additions and deletions
-  - **Accessibility-first** — tuned contrast for comfortable long sessions
+  - **9 accent variants**: Lover, Wasp, Fire, Ruby, Leaf, Berry, Sea, Salt and Ash
+  - **Shared syntax layer**: every theme colors code identically; only the UI accent changes
+  - **Complete UI design**: activity bar, sidebar, terminal, title bar, and more
+  - **11 token categories**: comments, strings, functions, keywords… all perfectly styled
+  - **Semantic highlighting**: variables, properties, and parameters intelligently colored
+  - **Bracket colorization**: 4-color rotation for easy nesting visualization
+  - **Git integration colors**: clear diff highlighting for additions and deletions
+  - **Accessibility-first**: tuned contrast for comfortable long sessions
 
 <br/>
 
