@@ -83,5 +83,12 @@
     "compile": "npm run check-themes && npm run check-docs",
     "vsix": "npm run compile && npm run check-release && node scripts/release.js package",
     "release": "npm run compile && npm run check-release && node scripts/release.js publish"
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true,
+      "description": "Dark Mode Lover is a colour theme: it contributes JSON files and runs no code at all."
+    },
+    "virtualWorkspaces": true
   }
 }
