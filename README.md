@@ -1,38 +1,21 @@
-<div align="center">
+# **One theme. Nine moods.**
 
-# Dark Mode Lover 🌙
+Changing dark theme means relearning your code. The accent you wanted arrives with somebody else's idea of what a string should look like, and a week later you are back on the one you started with.
 
-### The perfect dark theme for developers who code for hours
+**Dark Mode Lover is nine themes that colour your code identically.** Only the accent moves.
 
-*Eight carefully tuned dark themes. One calm, cohesive workbench.*
+![The Dark Mode Lover workbench: editor, sidebar and terminal in one calm dark palette](https://github.com/Kailuss/dark-mode-lover/raw/HEAD/screenshot.jpg)
 
-![Dark Mode Lover Theme Screenshot](https://github.com/Kailuss/dark-mode-lover/raw/HEAD/screenshot.jpg)
+*A dark palette tuned for long sessions, in whichever accent you feel like today.*
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/lovervoid.dark-mode-lover?style=flat-square&label=Marketplace&color=4499ff)](https://marketplace.visualstudio.com/items?itemName=lovervoid.dark-mode-lover)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/lovervoid.dark-mode-lover?style=flat-square&label=Installs&color=4499ff)](https://marketplace.visualstudio.com/items?itemName=lovervoid.dark-mode-lover)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/lovervoid.dark-mode-lover?style=flat-square&label=Rating&color=4499ff)](https://marketplace.visualstudio.com/items?itemName=lovervoid.dark-mode-lover&ssr=false#review-details)
-[![License](https://img.shields.io/badge/License-MIT-4499ff?style=flat-square)](https://github.com/Kailuss/dark-mode-lover/blob/HEAD/LICENSE.txt)
+## The family
 
-[![Install](https://img.shields.io/badge/VS%20Code-Install-4499ff?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=lovervoid.dark-mode-lover)
-
-</div>
-
-<br/>
-
-## Overview
-
-**Dark Mode Lover** brings a polished, eye-friendly aesthetic to Visual Studio Code. Built for developers who spend long hours coding, it balances soothing dark tones with high contrast for clarity and comfort. It now ships as a **family of nine themes** that share the exact same syntax highlighting, so you can switch accent color without ever relearning your code's colors.
-
-<br/>
-
-## The Theme Family
-
-Every variant is built on one shared syntax layer and one neutral workbench palette. They color your code **identically**: only the accent (buttons, focus, active tabs, title bar, links) and a complementary badge change. Pick the mood that fits your day.
+Every variant is built on one shared syntax layer and one neutral workbench. What changes between them is the accent, which is to say buttons, focus, the active tab, the title bar and links, plus a complementary badge.
 
 | Theme | Accent | Feel |
-|-------|:------:|------|
+|---|---|---|
 | **Dark Mode Lover** | Blue | The original, balanced and calm |
-| **Wasp** | Amber | Warm, high-energy |
+| **Wasp** | Amber | Warm, high energy |
 | **Fire** | Orange | Bold and vivid |
 | **Ruby** | Crimson | Rich and confident |
 | **Leaf** | Green | Fresh and natural |
@@ -41,79 +24,41 @@ Every variant is built on one shared syntax layer and one neutral workbench pale
 | **Salt** | Monochrome | Minimal, distraction-free |
 | **Ash** | Dim monochrome | Quieter still, a dimmer Salt |
 
-> Switch anytime via `Preferences > Color Theme`. Your syntax colors stay consistent across all nine.
+Switch from `Preferences > Color Theme` whenever you like. Your syntax colours do not move.
 
-<br/>
+## Built for the hours
 
-## ◾ Why You'll Love It
+- **Tuned contrast**: readable without being loud, at any time of day.
+- **Semantic highlighting**: variables, properties and parameters told apart by what they are, not only by their shape.
+- **Eleven token categories**: comments, strings, functions, keywords and the rest, each with a job.
+- **Bracket pairs**: four colours in rotation, so nesting reads itself.
+- **Git colours**: additions and deletions you can tell apart at a glance.
 
-  🔹 **Beautiful & Balanced.** Every color is carefully selected to create harmony. Your code won't just run well: it will look stunning.
+## The whole workbench, not just the editor
 
-  🔹 **Easy on the Eyes.** Optimized contrast ratios let you code comfortably for hours, day or night.
+Activity bar, sidebar, terminal, title bar, menus, status bar and notifications all belong to the same palette.
 
-  🔹 **Works with Everything.** JavaScript, TypeScript, Python, C#, Java, SQL, HTML, CSS, Markdown… 20+ languages beautifully highlighted.
+Text on the accent is chosen per theme, light or dark according to how bright that accent is, so buttons, menus and selections stay legible in every one of the nine.
 
-  🔹 **Smart Highlighting.** Advanced semantic token support means your code isn't just colored: it's intelligently differentiated. Variables, functions, classes, and keywords each get a distinct, meaningful appearance.
+## Getting started
 
-  🔹 **One Family, Nine Moods.** A unified design system: switch accent color instantly while keeping the same trusted syntax highlighting.
+Open **Extensions** (`Ctrl` + `Shift` + `X`), search for **Dark Mode Lover**, install.
 
-<br/>
+Then `Preferences > Color Theme`, and pick the one you want.
 
-## ◾ Get Started in Seconds
+Requires VS Code **1.70** or later. Windows, macOS and Linux.
 
-1. Open **Extensions** in VS Code (`Ctrl+Shift+X`)
-2. Search for **"Dark Mode Lover"**
-3. Click **Install**
-4. Pick your favorite: `Preferences > Color Theme > Dark Mode Lover`
+## A few things worth knowing
 
-**That's it!** Your editor is now transformed.
+- **The nine share one syntax layer.** That is the whole idea, and it is also the limit: there is no per-variant tweak to how code is coloured.
+- **Every variant is dark.** There is no light one.
 
-> **Thank you** for trying Dark Mode Lover! Your feedback drives our improvements. Please share your thoughts and stay tuned for regular updates.
+## Why Dark Mode Lover?
 
-<br/>
+Because choosing a colour should not cost you the colours you already know.
 
-## ◾ What's Included
+**Nine accents. One set of syntax colours. Nothing to relearn.**
 
-  - **9 accent variants**: Lover, Wasp, Fire, Ruby, Leaf, Berry, Sea, Salt and Ash
-  - **Shared syntax layer**: every theme colors code identically; only the UI accent changes
-  - **Complete UI design**: activity bar, sidebar, terminal, title bar, and more
-  - **11 token categories**: comments, strings, functions, keywords… all perfectly styled
-  - **Semantic highlighting**: variables, properties, and parameters intelligently colored
-  - **Bracket colorization**: 4-color rotation for easy nesting visualization
-  - **Git integration colors**: clear diff highlighting for additions and deletions
-  - **Accessibility-first**: tuned contrast for comfortable long sessions
+Questions and bug reports: the **Q&A** tab on this listing.
 
-<br/>
-
-## ◾ Technical Details
-
-  - **Requirements:** VS Code 1.70.0 or higher
-  - **Platform:** Windows, macOS, Linux
-  - **Languages:** 20+ supported
-  - **License:** MIT
-
-> 🌈 **Looking ahead:** as we approach version 1.0, expect even more color variations and theme packages based on community requests.
-
-<br/>
-
-## ◾ Need Help or Have Ideas?
-
-We're here for you! Found a bug? Want a feature? Have color suggestions?
-
-- [Open an issue](https://github.com/Kailuss/Dark-Mode-Lover/issues) on GitHub
-- [Star the project](https://github.com/Kailuss/Dark-Mode-Lover) if you love it
-- Share it with your developer friends!
-
-<br/>
-
----
-
-<div align="center">
-
-### Ready to fall in love with dark mode?
-
-**[Install Dark Mode Lover Now](https://marketplace.visualstudio.com/items?itemName=lovervoid.dark-mode-lover)**
-
-Crafted with 🌙 by **Alfonso Otón** ([kailuss@gmail.com](mailto:kailuss@gmail.com))
-
-</div>
+MIT License.
