@@ -7,6 +7,10 @@ Release channel: an **odd** minor (0.9, 1.1, ...) ships through the marketplace'
 derives the flag from the version in the manifest, so there is nothing to
 remember at publish time.
 
+## [0.9.2] - 2026-09-07
+- The menu bar and window title now use each theme's muted accent tone instead of the bright one, matching what Wasp already did. Focused and unfocused windows share it.
+- **Wasp**'s status bar drops its amber tint for the same neutral white the other eight variants already used, so every theme reports the same way down there.
+
 ## [0.9.1] - 2026-07-04
 - Added a seventh variant, **Ash**: a dimmer monochrome companion to Salt.
 - Muted the inactive activity-bar icons on every variant so they read clearly against the active ones (matching Wasp).
