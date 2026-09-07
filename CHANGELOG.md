@@ -7,6 +7,14 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 Odd minor versions (0.9, 1.1, …) ship on the marketplace's **pre-release**
 channel; even ones are stable releases.
 
+## [0.10.0] - 2026-09-07
+
+### Changed
+
+- **This release is stable, and it carries 0.9.2 and 0.9.3 with it.** Both of those went out on the pre-release channel, so a stable install never saw them: the muted accent on the menu bar and window title, Wasp's neutral status bar and the reworked extension icon all arrive here.
+- The marketplace page is rewritten: it opens with what the theme is for and the screenshot, each section leads with a sentence and then a list, and there is a section saying plainly what the family does not do.
+- This changelog carries the Keep a Changelog category headings it had never had, and every entry is sorted into them.
+
 ## [0.9.3] - 2026-09-07
 
 ### Changed
