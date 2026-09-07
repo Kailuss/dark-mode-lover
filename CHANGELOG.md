@@ -7,6 +7,9 @@ Release channel: an **odd** minor (0.9, 1.1, ...) ships through the marketplace'
 derives the flag from the version in the manifest, so there is nothing to
 remember at publish time.
 
+## [0.9.3] - 2026-09-07
+- Reworked the extension icon: the flat charcoal tile becomes a warm to cool gradient, amber into deep blue, spanning the range the theme family now covers. The toggle gains a lighter rim.
+
 ## [0.9.2] - 2026-09-07
 - The menu bar and window title now use each theme's muted accent tone instead of the bright one, matching what Wasp already did. Focused and unfocused windows share it.
 - **Wasp**'s status bar drops its amber tint for the same neutral white the other eight variants already used, so every theme reports the same way down there.
