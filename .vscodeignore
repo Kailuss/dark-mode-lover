@@ -34,5 +34,9 @@ tsconfig.json
 # Unpublished / WIP theme (not registered in package.json)
 themes/dark-mode-hater.json
 
+# Generated packaging artefact. `vsce` writes its own inside the .vsix, so the
+# one at the root only travels to say a version that is not the one being cut.
+.vsixmanifest
+
 # The quality gate: not for the end user.
 scripts/
