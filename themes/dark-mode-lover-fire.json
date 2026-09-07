@@ -347,7 +347,7 @@
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────
         "titleBar.activeBackground"                        : "#000" ,
-        "titleBar.activeForeground"                        : "#f96" ,
+        "titleBar.activeForeground"                        : "#b63" ,
         "titleBar.border"                                  : "#0000",
         "titleBar.inactiveBackground"                      : "#000" ,
         "titleBar.inactiveForeground"                      : "#b63" ,

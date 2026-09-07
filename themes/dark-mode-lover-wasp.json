@@ -295,7 +295,7 @@
         "statusBar.border"                                 : "#010103"  ,
         "statusBar.debuggingBackground"                    : "#f29e74"  ,
         "statusBar.debuggingForeground"                    : "#242432"  ,
-        "statusBar.foreground"                             : "#fac761dd",
+        "statusBar.foreground"                             : "#fff7"    ,
         "statusBar.noFolderBackground"                     : "#1c1d26"  ,
         "statusBarItem.activeBackground"                   : "#70758033",
         "statusBarItem.hoverBackground"                    : "#70758033",
