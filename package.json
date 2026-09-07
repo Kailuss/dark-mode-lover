@@ -1,79 +1,87 @@
 {
-	"name": "dark-mode-lover",
-	"displayName": "Dark Mode Lover",
-	"description": "Dark Mode Lover is a theme for Visual Studio Code. It offers a balanced contrast and broad language support, making it a great choice for developers who prefer dark themes.",
-	"version": "0.9.1",
-	"publisher": "Lovervoid",
-	"engines": {
-		"vscode": "^1.70.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"galleryBanner": {
-        "color": "#16161d",
-        "theme": "dark"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Dark Mode Lover",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-mode-lover.json"
-			},
-			{
-				"label": "Dark Mode Lover - Wasp",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-mode-lover-wasp.json"
-			},
-			{
-				"label": "Dark Mode Lover - Ruby",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-mode-lover-ruby.json"
-			},
-			{
-				"label": "Dark Mode Lover - Leaf",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-mode-lover-leaf.json"
-			},
-			{
-				"label": "Dark Mode Lover - Berry",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-mode-lover-berry.json"
-			},
-			{
-				"label": "Dark Mode Lover - Sea",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-mode-lover-sea.json"
-			},
-			{
-				"label": "Dark Mode Lover - Salt",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-mode-lover-salt.json"
-			},
-			{
-				"label": "Dark Mode Lover - Fire",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-mode-lover-fire.json"
-			},
-			{
-				"label": "Dark Mode Lover - Ash",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-mode-lover-ash.json"
-			}
-		]
-	},
-	"keywords": [
-		"Vscode",
-		"Theme",
-		"Onedark",
-		"Monokai"
-	],
-	"author": "Alfonso Otón <kailuss@gmail.com>",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Kailuss/dark-mode-lover.git"
-	}
+  "name": "dark-mode-lover",
+  "displayName": "Dark Mode Lover",
+  "description": "Dark Mode Lover is a theme for Visual Studio Code. It offers a balanced contrast and broad language support, making it a great choice for developers who prefer dark themes.",
+  "version": "0.9.1",
+  "publisher": "Lovervoid",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#16161d",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Mode Lover",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-mode-lover.json"
+      },
+      {
+        "label": "Dark Mode Lover - Wasp",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-mode-lover-wasp.json"
+      },
+      {
+        "label": "Dark Mode Lover - Ruby",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-mode-lover-ruby.json"
+      },
+      {
+        "label": "Dark Mode Lover - Leaf",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-mode-lover-leaf.json"
+      },
+      {
+        "label": "Dark Mode Lover - Berry",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-mode-lover-berry.json"
+      },
+      {
+        "label": "Dark Mode Lover - Sea",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-mode-lover-sea.json"
+      },
+      {
+        "label": "Dark Mode Lover - Salt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-mode-lover-salt.json"
+      },
+      {
+        "label": "Dark Mode Lover - Fire",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-mode-lover-fire.json"
+      },
+      {
+        "label": "Dark Mode Lover - Ash",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-mode-lover-ash.json"
+      }
+    ]
+  },
+  "keywords": [
+    "Vscode",
+    "Theme",
+    "Onedark",
+    "Monokai"
+  ],
+  "author": "Alfonso Otón <kailuss@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kailuss/dark-mode-lover.git"
+  },
+  "scripts": {
+    "check-themes": "node scripts/check-themes.js",
+    "check-docs": "node scripts/check-docs.js",
+    "check-release": "node scripts/check-release.js",
+    "compile": "npm run check-themes && npm run check-docs",
+    "vsix": "npm run compile && npm run check-release && node scripts/release.js package",
+    "release": "npm run compile && npm run check-release && node scripts/release.js publish"
+  }
 }

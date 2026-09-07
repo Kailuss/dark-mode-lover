@@ -33,3 +33,6 @@ tsconfig.json
 
 # Unpublished / WIP theme (not registered in package.json)
 themes/dark-mode-hater.json
+
+# The quality gate: not for the end user.
+scripts/
