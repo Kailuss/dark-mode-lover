@@ -28,3 +28,7 @@ coverage/
 
 # TypeScript build info
 *.tsbuildinfo
+
+# Las notas de trabajo se excluyen por PATRON y no por nombre: escrito uno a uno,
+# el fichero que se queda fuera es siempre el SIGUIENTE.
+[Pp]lan*.md
