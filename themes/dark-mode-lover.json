@@ -347,10 +347,10 @@
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────
         "titleBar.activeBackground"                        : "#000" ,
-        "titleBar.activeForeground"                        : "#48c" ,
+        "titleBar.activeForeground"                        : "#25b" ,
         "titleBar.border"                                  : "#0000",
         "titleBar.inactiveBackground"                      : "#000" ,
-        "titleBar.inactiveForeground"                      : "#48c" ,
+        "titleBar.inactiveForeground"                      : "#25b" ,
 
         //? ─── Tree & Misc ───────────────────────────────────────────────────────────────────
         "tree.indentGuidesStroke"                          : "#8E8EAE56",
