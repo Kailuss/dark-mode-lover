@@ -8,8 +8,8 @@
     "colors": {
 
         //? ─── Modern additions (VS Code 2024–2026) ─────────────────────────────
-        "commandCenter.foreground"                         : "#cccac2"  ,
-        "commandCenter.activeForeground"                   : "#cccac2"  ,
+        "commandCenter.foreground"                         : "#585"     ,
+        "commandCenter.activeForeground"                   : "#7d9"     ,
         "commandCenter.inactiveForeground"                 : "#707580"  ,
         "commandCenter.background"                         : "#7075801a",
         "commandCenter.activeBackground"                   : "#70758033",
