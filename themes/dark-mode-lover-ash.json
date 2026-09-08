@@ -56,6 +56,14 @@
         "button.secondaryForeground"                       : "#fff9",
         "button.secondaryHoverBackground"                  : "#fff3",
 
+        //? ─── Charts ────────────────────────────────────────────────────────────────────────
+        "charts.blue"                                      : "#39f"   ,
+        "charts.green"                                     : "#8d7"   ,
+        "charts.orange"                                    : "#f90"   ,
+        "charts.purple"                                    : "#dabafa",
+        "charts.red"                                       : "#f66"   ,
+        "charts.yellow"                                    : "#ec6"   ,
+
         //? ─── Debug ─────────────────────────────────────────────────────────────────────────
         "debugConsoleInputIcon.foreground"                 : "#39f"     ,
         "debugIcon.breakpointDisabledForeground"           : "#f29e7480",
