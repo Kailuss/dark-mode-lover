@@ -7,6 +7,12 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 Odd minor versions (0.9, 1.1, …) ship on the marketplace's **pre-release**
 channel; even ones are stable releases.
 
+## [0.10.2] - 2026-09-07
+
+### Changed
+
+- The command center (the box in the middle of the title bar, its magnifier and its back and forward arrows) now carries the same muted accent as the rest of that bar, and brightens to the full accent on hover. It was the one thing up there still in the light neutral, so the title, the menu, the window controls and the layout icons read as one strip.
+
 ## [0.10.1] - 2026-09-07
 
 ### Fixed
