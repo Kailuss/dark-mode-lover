@@ -7,6 +7,9 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 Odd minor versions (0.9, 1.1, …) ship on the marketplace's **pre-release**
 channel; even ones are stable releases.
 
+## [0.10.3] - 2026-09-08
+- Declared the six `charts.*` colors in every variant, taken from the theme's own terminal palette. They had never been set, so VS Code derived them from unrelated keys and `charts.orange` came out as the translucent mauve of the minimap find highlight. Extensions that color by category, such as Bays, now read the theme's own palette.
+
 ## [0.10.2] - 2026-09-07
 
 ### Changed
