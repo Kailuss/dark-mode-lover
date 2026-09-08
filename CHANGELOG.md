@@ -7,6 +7,12 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 Odd minor versions (0.9, 1.1, …) ship on the marketplace's **pre-release**
 channel; even ones are stable releases.
 
+## [0.10.1] - 2026-09-07
+
+### Fixed
+
+- **Lover**'s menu bar and window title now use the same muted tone as its own inactive activity-bar icons (`#25b`), which is what the other eight variants already did. It was the one theme still a step brighter than its own sidebar.
+
 ## [0.10.0] - 2026-09-07
 
 ### Changed
