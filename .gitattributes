@@ -1,0 +1,10 @@
+# Normalize to LF in the repository and in the working tree, on every platform.
+# Without this a file written on Windows enters with CRLF and every later diff
+# reports it whole, which matters most for the two long text files here: the
+# guide and the changelog.
+* text=auto eol=lf
+
+# Binary assets: never touch them.
+*.png   binary
+*.jpg   binary
+*.vsix  binary
