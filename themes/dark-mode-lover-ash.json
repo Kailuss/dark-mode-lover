@@ -8,7 +8,7 @@
     "colors": {
 
         //? ─── Modern additions (VS Code 2024–2026) ─────────────────────────────
-        "commandCenter.foreground"                         : "#5c5c6b"     ,
+        "commandCenter.foreground"                         : "#666776"     ,
         "commandCenter.activeForeground"                   : "#bbc"     ,
         "commandCenter.inactiveForeground"                 : "#8d8d8d"  ,
         "commandCenter.background"                         : "#8d8d8d1a",
@@ -32,7 +32,7 @@
         "menu.foreground"                                   : "#e4e4e4"  ,
         "menu.border"                                       : "#8d8d8d45",
         "menu.separatorBackground"                          : "#8d8d8d45",
-        "menu.selectionBackground"                          : "#636272"     ,
+        "menu.selectionBackground"                          : "#767586"     ,
         "menu.selectionForeground"                          : "#ffffff"     ,
 
         //? ─── Activity Bar ──────────────────────────────────────────────────────────────────
@@ -40,7 +40,7 @@
         "activityBar.background"                           : "#000"   ,
         "activityBar.border"                               : "#181818",
         "activityBar.foreground"                           : "#bbc"   ,
-        "activityBar.inactiveForeground"                   : "#5c5c6b"   ,
+        "activityBar.inactiveForeground"                   : "#666776"   ,
         "activityBarBadge.background"                      : "#ec6a3e"   ,
         "activityBarBadge.foreground"                      : "#171717"   ,
 
@@ -49,7 +49,7 @@
         "badge.foreground"                                 : "#171717",
 
         //? ─── Buttons ───────────────────────────────────────────────────────────────────────
-        "button.background"                                : "#636272" ,
+        "button.background"                                : "#767586" ,
         "button.foreground"                                : "#ffffff",
         "button.hoverBackground"                           : "#889" ,
         "button.secondaryBackground"                       : "#fff2",
@@ -72,10 +72,10 @@
 
         //? ─── General ───────────────────────────────────────────────────────────────────────
         "descriptionForeground"                            : "#8d8d8d",
-        "focusBorder"                                      : "#636272"   ,
+        "focusBorder"                                      : "#767586"   ,
         "foreground"                                       : "#8d8d8d",
         "icon.foreground"                                  : "#8d8d8d",
-        "selection.background"                             : "#63627244"  ,
+        "selection.background"                             : "#76758644"  ,
 
         //? ─── Diff Editor ──────────────────────────────────────────────────────────────────
         "diffEditor.diagonalFill"                          : "#181818",
@@ -186,7 +186,7 @@
         "quickInput.foreground"                            : "#e4e4e4ee",
         "quickInputList.focusBackground"                   : "#889"     ,
         "quickInputList.focusForeground"                   : "#171717"  ,
-        "quickInputList.focusIconForeground"               : "#636272"     ,
+        "quickInputList.focusIconForeground"               : "#767586"     ,
 
         //? ─── Extension Buttons ─────────────────────────────────────────────────────────────
         "extensionButton.prominentBackground"              : "#667" ,
@@ -245,7 +245,7 @@
         "minimap.background"                               : "#1e1e1e"  ,
         "minimap.errorHighlight"                           : "#f66"     ,
         "minimap.findMatchHighlight"                       : "#69538099",
-        "minimap.selectionHighlight"                       : "#63627244"    ,
+        "minimap.selectionHighlight"                       : "#76758644"    ,
         "minimapSlider.background"                         : "#8d8d8d20",
         "minimapSlider.hoverBackground"                    : "#8d8d8d33",
         "minimapSlider.activeBackground"                   : "#8d8d8d55",
@@ -350,20 +350,20 @@
         //? ─── Text ──────────────────────────────────────────────────────────────────────────
         "textBlockQuote.background"                        : "#262626",
         "textLink.activeForeground"                        : "#889"   ,
-        "textLink.foreground"                              : "#636272"   ,
+        "textLink.foreground"                              : "#bbc"   ,
         "textPreformat.foreground"                         : "#e4e4e4",
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────
         "titleBar.activeBackground"                        : "#000" ,
-        "titleBar.activeForeground"                        : "#5c5c6b" ,
+        "titleBar.activeForeground"                        : "#666776" ,
         "titleBar.border"                                  : "#0000",
         "titleBar.inactiveBackground"                      : "#000" ,
-        "titleBar.inactiveForeground"                      : "#5c5c6b" ,
+        "titleBar.inactiveForeground"                      : "#666776" ,
 
         //? ─── Tree & Misc ───────────────────────────────────────────────────────────────────
         "tree.indentGuidesStroke"                          : "#91919156",
         "walkThrough.embeddedEditorBackground"             : "#222222"  ,
-        "welcomePage.progress.background"                  : "#63627266"    ,
+        "welcomePage.progress.background"                  : "#76758666"    ,
         "welcomePage.tileBackground"                       : "#262626"  ,
         "widget.border"                                    : "#fff1"    ,
         "window.activeBorder"                              : "#1e1e1e"

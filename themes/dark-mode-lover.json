@@ -350,7 +350,7 @@
         //? ─── Text ──────────────────────────────────────────────────────────────────────────
         "textBlockQuote.background"                        : "#262626",
         "textLink.activeForeground"                        : "#38f"   ,
-        "textLink.foreground"                              : "#2c5dc5"   ,
+        "textLink.foreground"                              : "#49f"   ,
         "textPreformat.foreground"                         : "#e4e4e4",
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────

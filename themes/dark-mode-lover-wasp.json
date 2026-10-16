@@ -8,7 +8,7 @@
     "colors": {
 
         //? ─── Modern additions (VS Code 2024–2026) ─────────────────────────────
-        "commandCenter.foreground"                         : "#875100"     ,
+        "commandCenter.foreground"                         : "#9d6622"     ,
         "commandCenter.activeForeground"                   : "#fc6"     ,
         "commandCenter.inactiveForeground"                 : "#8d8d8d"  ,
         "commandCenter.background"                         : "#8d8d8d1a",
@@ -30,14 +30,14 @@
         "menu.foreground"                                  : "#e4e4e4"  ,
         "menu.border"                                      : "#8d8d8d45",
         "menu.separatorBackground"                         : "#8d8d8d45",
-        "menu.selectionBackground"                         : "#dea042"  ,
+        "menu.selectionBackground"                         : "#ffc572"  ,
         "menu.selectionForeground"                         : "#171717"  ,
         // ─── Activity Bar ──────────────────────────────────────────────────────────────────
         "activityBar.activeBorder"                         : "#fff"   ,
         "activityBar.background"                           : "#000"   ,
         "activityBar.border"                               : "#181818",
         "activityBar.foreground"                           : "#fc6"   ,
-        "activityBar.inactiveForeground"                   : "#875100"   ,
+        "activityBar.inactiveForeground"                   : "#9d6622"   ,
         "activityBarBadge.background"                      : "#46e"   ,
         "activityBarBadge.foreground"                      : "#ffffff"  ,
 
@@ -46,7 +46,7 @@
         "badge.foreground"                                 : "#ffffff",
 
         // ─── Buttons ───────────────────────────────────────────────────────────────────────
-        "button.background"                                : "#dea042"  ,
+        "button.background"                                : "#ffc572"  ,
         "button.foreground"                                : "#171717",
         "button.hoverBackground"                           : "#ffcf70"  ,
         "button.secondaryBackground"                       : "#8d8d8d33",
@@ -69,7 +69,7 @@
 
         // ─── General ───────────────────────────────────────────────────────────────────────
         "descriptionForeground"                            : "#8d8d8d"  ,
-        "focusBorder"                                      : "#dea042"  ,
+        "focusBorder"                                      : "#ffc572"  ,
         "foreground"                                       : "#8d8d8d"  ,
         "icon.foreground"                                  : "#8d8d8d"  ,
         "selection.background"                             : "#4080ff20",
@@ -347,15 +347,15 @@
         // ─── Text ──────────────────────────────────────────────────────────────────────────
         "textBlockQuote.background"                        : "#262626",
         "textLink.activeForeground"                        : "#39f"   ,
-        "textLink.foreground"                              : "#46e"   ,
+        "textLink.foreground"                              : "#fc6"   ,
         "textPreformat.foreground"                         : "#e4e4e4",
 
         // ─── Title Bar ─────────────────────────────────────────────────────────────────────
         "titleBar.activeBackground"                        : "#000" ,
-        "titleBar.activeForeground"                        : "#875100" ,
+        "titleBar.activeForeground"                        : "#9d6622" ,
         "titleBar.border"                                  : "#0000",
         "titleBar.inactiveBackground"                      : "#000" ,
-        "titleBar.inactiveForeground"                      : "#875100" ,
+        "titleBar.inactiveForeground"                      : "#9d6622" ,
 
         // ─── Tree & Misc ───────────────────────────────────────────────────────────────────
         "tree.indentGuidesStroke"                          : "#91919156",

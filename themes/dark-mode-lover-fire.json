@@ -8,7 +8,7 @@
     "colors": {
 
         //? ─── Modern additions (VS Code 2024–2026) ─────────────────────────────
-        "commandCenter.foreground"                         : "#a86400"     ,
+        "commandCenter.foreground"                         : "#b16d14"     ,
         "commandCenter.activeForeground"                   : "#ffaa22"     ,
         "commandCenter.inactiveForeground"                 : "#8d8d8d"  ,
         "commandCenter.background"                         : "#8d8d8d1a",
@@ -40,7 +40,7 @@
         "activityBar.background"                           : "#000"   ,
         "activityBar.border"                               : "#181818",
         "activityBar.foreground"                           : "#ffaa22"   ,
-        "activityBar.inactiveForeground"                   : "#a86400"   ,
+        "activityBar.inactiveForeground"                   : "#b16d14"   ,
         "activityBarBadge.background"                      : "#d92b1a"   ,
         "activityBarBadge.foreground"                      : "#ffffff",
 
@@ -350,15 +350,15 @@
         //? ─── Text ──────────────────────────────────────────────────────────────────────────
         "textBlockQuote.background"                        : "#262626",
         "textLink.activeForeground"                        : "#ffb02e"   ,
-        "textLink.foreground"                              : "#f5a020"   ,
+        "textLink.foreground"                              : "#ffaa22"   ,
         "textPreformat.foreground"                         : "#e4e4e4",
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────
         "titleBar.activeBackground"                        : "#000" ,
-        "titleBar.activeForeground"                        : "#a86400" ,
+        "titleBar.activeForeground"                        : "#b16d14" ,
         "titleBar.border"                                  : "#0000",
         "titleBar.inactiveBackground"                      : "#000" ,
-        "titleBar.inactiveForeground"                      : "#a86400" ,
+        "titleBar.inactiveForeground"                      : "#b16d14" ,
 
         //? ─── Tree & Misc ───────────────────────────────────────────────────────────────────
         "tree.indentGuidesStroke"                          : "#91919156",
