@@ -7,6 +7,19 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 Odd minor versions (0.9, 1.1, …) ship on the marketplace's **pre-release**
 channel; even ones are stable releases.
 
+## [0.11.1] - 2026-10-16
+
+### Changed
+
+- **Fire** is a yellower, more saturated amber: the accent is `#ffaa22`, the button `#f5a020` and the muted tone `#a86400`. Its notification badge is fire red (`#d92b1a`).
+- **Ruby** is a deep red instead of a coral pink: the accent is `#f03e52`, the button `#a01830` and the muted tone `#b81d38`.
+- **Berry**'s notification badge is a clean yellow (`#ffd23c`).
+- Every badge, button, menu selection, prominent extension button and remote status item now takes a light or dark label by measured contrast, and the label is opaque. All of them reach at least 4.5:1, which moved Lover's badge to `#c7502e`, Leaf's badge to `#a9754d` and Leaf's remote item to `#318642`.
+
+### Fixed
+
+- The buttons of **Wasp**, **Sea**, **Salt** and **Fire** were too dark for their dark label (4.5:1 at best). They are lighter again and reach about 8:1: Wasp `#dea042`, Sea `#48bcbb`, Salt `#acabbb`.
+
 ## [0.11.0] - 2026-10-16
 
 ### Changed
