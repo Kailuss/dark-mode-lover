@@ -7,6 +7,17 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 Odd minor versions (0.9, 1.1, …) ship on the marketplace's **pre-release**
 channel; even ones are stable releases.
 
+## [0.11.2] - 2026-10-16
+
+### Changed
+
+- The button fills and the muted accent (inactive activity-bar icons, the title bar) of eight variants are lighter again, back to the lightness they had in 0.10.3 with their new hues: Wasp `#ffc572` and `#9d6622`, Ruby `#c4404d`, Leaf `#27865f` and `#348b72`, Berry `#8b46d0` and `#7946d2`, Sea `#55c8c6` and `#348991`, Salt `#bcbbcb` and `#888998`, Fire's muted tone `#b16d14`, Ash `#767586` and `#666776`. Every button label stays at 4.5:1 or more.
+- Links use the bright accent instead of the button fill.
+
+### Fixed
+
+- **Ruby**'s active and inactive activity-bar icons were nearly the same red. The active one is `#ff4d60` and the inactive one a deeper `#b0223c`.
+
 ## [0.11.1] - 2026-10-16
 
 ### Changed
