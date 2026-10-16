@@ -8,8 +8,8 @@
     "colors": {
 
         //? ─── Modern additions (VS Code 2024–2026) ─────────────────────────────
-        "commandCenter.foreground"                         : "#a52d6f"     ,
-        "commandCenter.activeForeground"                   : "#e68"     ,
+        "commandCenter.foreground"                         : "#b81d38"     ,
+        "commandCenter.activeForeground"                   : "#f03e52"     ,
         "commandCenter.inactiveForeground"                 : "#8d8d8d"  ,
         "commandCenter.background"                         : "#8d8d8d1a",
         "commandCenter.activeBackground"                   : "#8d8d8d33",
@@ -19,11 +19,11 @@
         "editorStickyScrollHover.background"               : "#8d8d8d33",
         "editorInlayHint.foreground"                       : "#8d8d8d"  ,
         "editorInlayHint.background"                       : "#0000"    ,
-        "editorInlayHint.typeForeground"                   : "#fac"     ,
+        "editorInlayHint.typeForeground"                   : "#ff99a8"     ,
         "editorInlayHint.parameterForeground"              : "#fa5"     ,
         "editorGhostText.foreground"                       : "#8d8d8d99",
         "editorGutter.foldingControlForeground"            : "#8d8d8d"  ,
-        "sash.hoverBorder"                                 : "#d46"     ,
+        "sash.hoverBorder"                                 : "#e8304a"     ,
         "toolbar.hoverBackground"                          : "#8d8d8d33",
         "terminalStickyScroll.background"                  : "#171717"  ,
 
@@ -32,15 +32,15 @@
         "menu.foreground"                                   : "#e4e4e4"  ,
         "menu.border"                                       : "#8d8d8d45",
         "menu.separatorBackground"                          : "#8d8d8d45",
-        "menu.selectionBackground"                          : "#ae3065"     ,
-        "menu.selectionForeground"                          : "#fff"     ,
+        "menu.selectionBackground"                          : "#a01830"     ,
+        "menu.selectionForeground"                          : "#ffffff"     ,
 
         //? ─── Activity Bar ──────────────────────────────────────────────────────────────────
         "activityBar.activeBorder"                         : "#fff"   ,
         "activityBar.background"                           : "#000"   ,
         "activityBar.border"                               : "#181818",
-        "activityBar.foreground"                           : "#e68"   ,
-        "activityBar.inactiveForeground"                   : "#a52d6f"   ,
+        "activityBar.foreground"                           : "#f03e52"   ,
+        "activityBar.inactiveForeground"                   : "#b81d38"   ,
         "activityBarBadge.background"                      : "#3bd"   ,
         "activityBarBadge.foreground"                      : "#171717",
 
@@ -49,9 +49,9 @@
         "badge.foreground"                                 : "#171717",
 
         //? ─── Buttons ───────────────────────────────────────────────────────────────────────
-        "button.background"                                : "#ae3065" ,
-        "button.foreground"                                : "#fffc",
-        "button.hoverBackground"                           : "#d46" ,
+        "button.background"                                : "#a01830" ,
+        "button.foreground"                                : "#ffffff",
+        "button.hoverBackground"                           : "#e8304a" ,
         "button.secondaryBackground"                       : "#fff2",
         "button.secondaryForeground"                       : "#fff9",
         "button.secondaryHoverBackground"                  : "#fff3",
@@ -72,10 +72,10 @@
 
         //? ─── General ───────────────────────────────────────────────────────────────────────
         "descriptionForeground"                            : "#8d8d8d",
-        "focusBorder"                                      : "#ae3065"   ,
+        "focusBorder"                                      : "#a01830"   ,
         "foreground"                                       : "#8d8d8d",
         "icon.foreground"                                  : "#8d8d8d",
-        "selection.background"                             : "#ae306544"  ,
+        "selection.background"                             : "#a0183044"  ,
 
         //? ─── Diff Editor ──────────────────────────────────────────────────────────────────
         "diffEditor.diagonalFill"                          : "#181818",
@@ -125,7 +125,7 @@
 
         //? ─── Editor Code Lens & Cursor ─────────────────────────────────────────────────────
         "editorCodeLens.foreground"                        : "#616161",
-        "editorCursor.foreground"                          : "#e57"   ,
+        "editorCursor.foreground"                          : "#ff4d60"   ,
         "editorError.foreground"                           : "#f66"   ,
 
         //? ─── Editor Groups & Tabs Header ───────────────────────────────────────────────────
@@ -151,7 +151,7 @@
         "editorLineNumber.foreground"                      : "#5f5f5f",
 
         //? ─── Editor Links ──────────────────────────────────────────────────────────────────
-        "editorLink.activeForeground"                      : "#e57",
+        "editorLink.activeForeground"                      : "#ff4d60",
 
         //? ─── Editor Marker Navigation ──────────────────────────────────────────────────────
         "editorMarkerNavigation.background"                : "#222222",
@@ -184,14 +184,14 @@
         //? ─── Quick Input ───────────────────────────────────────────────────────────────────
         "quickInput.background"                            : "#121212"  ,
         "quickInput.foreground"                            : "#e4e4e4ee",
-        "quickInputList.focusBackground"                   : "#d46"     ,
+        "quickInputList.focusBackground"                   : "#e8304a"     ,
         "quickInputList.focusForeground"                   : "#171717"  ,
-        "quickInputList.focusIconForeground"               : "#ae3065"     ,
+        "quickInputList.focusIconForeground"               : "#a01830"     ,
 
         //? ─── Extension Buttons ─────────────────────────────────────────────────────────────
-        "extensionButton.prominentBackground"              : "#b34" ,
-        "extensionButton.prominentForeground"              : "#fffc",
-        "extensionButton.prominentHoverBackground"         : "#f79" ,
+        "extensionButton.prominentBackground"              : "#c4203c" ,
+        "extensionButton.prominentForeground"              : "#ffffff",
+        "extensionButton.prominentHoverBackground"         : "#ff5a6e" ,
 
         //? ─── Git Decoration ────────────────────────────────────────────────────────────────
         "gitDecoration.conflictingResourceForeground"      : "#d27948",
@@ -206,15 +206,15 @@
         "input.border"                                     : "#8d8d8d45",
         "input.foreground"                                 : "#e4e4e4"  ,
         "input.placeholderForeground"                      : "#5f5f5f",
-        "inputOption.activeBackground"                     : "#d463"    ,
-        "inputOption.activeBorder"                         : "#d465"    ,
-        "inputOption.activeForeground"                     : "#e57"     ,
+        "inputOption.activeBackground"                     : "#e8304a33"    ,
+        "inputOption.activeBorder"                         : "#e8304a55"    ,
+        "inputOption.activeForeground"                     : "#ff4d60"     ,
         "inputValidation.errorBackground"                  : "#1e1e1e"  ,
         "inputValidation.errorBorder"                      : "#f66"     ,
         "inputValidation.infoBackground"                   : "#1e1e1e"  ,
         "inputValidation.infoBorder"                       : "#5ccfe6"  ,
         "inputValidation.warningBackground"                : "#1e1e1e"  ,
-        "inputValidation.warningBorder"                    : "#d46"     ,
+        "inputValidation.warningBorder"                    : "#e8304a"     ,
 
         //? ─── Keybinding Label ──────────────────────────────────────────────────────────────
         "keybindingLabel.background"                       : "#8d8d8d1a",
@@ -232,20 +232,20 @@
         "list.focusBackground"                             : "#63759926",
         "list.focusForeground"                             : "#e4e4e4"  ,
         "list.focusOutline"                                : "#00000024",
-        "list.highlightForeground"                         : "#e57"     ,
+        "list.highlightForeground"                         : "#ff4d60"     ,
         "list.hoverBackground"                             : "#63759926",
         "list.inactiveSelectionBackground"                 : "#7575751f",
         "list.inactiveSelectionForeground"                 : "#8d8d8d"  ,
         "list.invalidItemForeground"                       : "#8d8d8d4d",
         "listFilterWidget.background"                      : "#222222"  ,
         "listFilterWidget.noMatchesOutline"                : "#f66"     ,
-        "listFilterWidget.outline"                         : "#d46"     ,
+        "listFilterWidget.outline"                         : "#e8304a"     ,
 
         //? ─── Minimap ───────────────────────────────────────────────────────────────────────
         "minimap.background"                               : "#1e1e1e"  ,
         "minimap.errorHighlight"                           : "#f66"     ,
         "minimap.findMatchHighlight"                       : "#69538099",
-        "minimap.selectionHighlight"                       : "#ae306544"    ,
+        "minimap.selectionHighlight"                       : "#a0183044"    ,
         "minimapSlider.background"                         : "#8d8d8d20",
         "minimapSlider.hoverBackground"                    : "#8d8d8d33",
         "minimapSlider.activeBackground"                   : "#8d8d8d55",
@@ -256,19 +256,19 @@
         //? ─── Panel ─────────────────────────────────────────────────────────────────────────
         "panel.background"                                 : "#171717",
         "panel.border"                                     : "#010101",
-        "panelTitle.activeBorder"                          : "#d46"   ,
+        "panelTitle.activeBorder"                          : "#e8304a"   ,
         "panelTitle.activeForeground"                      : "#e4e4e4",
         "panelTitle.inactiveForeground"                    : "#8d8d8d",
 
         //? ─── Peek View ─────────────────────────────────────────────────────────────────────
-        "peekView.border"                                  : "#d469"    ,
+        "peekView.border"                                  : "#e8304a99"    ,
         "peekViewEditor.background"                        : "#171717"  ,
-        "peekViewEditor.matchHighlightBackground"          : "#d466"    ,
-        "peekViewEditor.matchHighlightBorder"              : "#d469"    ,
+        "peekViewEditor.matchHighlightBackground"          : "#e8304a66"    ,
+        "peekViewEditor.matchHighlightBorder"              : "#e8304a99"    ,
         "peekViewResult.background"                        : "#171717"  ,
         "peekViewResult.fileForeground"                    : "#e4e4e4"  ,
         "peekViewResult.lineForeground"                    : "#8d8d8d"  ,
-        "peekViewResult.matchHighlightBackground"          : "#d466"    ,
+        "peekViewResult.matchHighlightBackground"          : "#e8304a66"    ,
         "peekViewResult.selectionBackground"               : "#63759926",
         "peekViewTitle.background"                         : "#63759926",
         "peekViewTitleDescription.foreground"              : "#8d8d8d"  ,
@@ -279,7 +279,7 @@
         "pickerGroup.foreground"                           : "#5f5f5f",
 
         //? ─── Progress Bar ──────────────────────────────────────────────────────────────────
-        "progressBar.background"                           : "#d46",
+        "progressBar.background"                           : "#e8304a",
 
         //? ─── Scrollbar ─────────────────────────────────────────────────────────────────────
         "scrollbar.shadow"                                 : "#00000000",
@@ -299,7 +299,7 @@
         "sideBarSectionHeader.background"                  : "#242424"  ,
         "sideBarSectionHeader.border"                      : "#010101"  ,
         "sideBarSectionHeader.foreground"                  : "#7c7c7c",
-        "sideBarTitle.foreground"                          : "#e68"     ,
+        "sideBarTitle.foreground"                          : "#f03e52"     ,
 
         //? ─── Status Bar ────────────────────────────────────────────────────────────────────
         "statusBar.background"                             : "#000"     ,
@@ -312,13 +312,13 @@
         "statusBarItem.hoverBackground"                    : "#8d8d8d33",
         "statusBarItem.prominentBackground"                : "#181818"  ,
         "statusBarItem.prominentHoverBackground"           : "#00000030",
-        "statusBarItem.remoteBackground"                   : "#b34"     ,
-        "statusBarItem.remoteForeground"                   : "#fffc"    ,
+        "statusBarItem.remoteBackground"                   : "#c4203c"     ,
+        "statusBarItem.remoteForeground"                   : "#ffffff"    ,
 
         //? ─── Tabs ──────────────────────────────────────────────────────────────────────────
         "tab.activeBackground"                             : "#262626",
         "tab.activeBorder"                                 : "#0000"  ,
-        "tab.activeBorderTop"                              : "#d46"   ,
+        "tab.activeBorderTop"                              : "#e8304a"   ,
         "tab.activeForeground"                             : "#e4e4e4",
         "tab.border"                                       : "#181818",
         "tab.inactiveBackground"                           : "#171717",
@@ -349,21 +349,21 @@
 
         //? ─── Text ──────────────────────────────────────────────────────────────────────────
         "textBlockQuote.background"                        : "#262626",
-        "textLink.activeForeground"                        : "#d46"   ,
-        "textLink.foreground"                              : "#ae3065"   ,
+        "textLink.activeForeground"                        : "#e8304a"   ,
+        "textLink.foreground"                              : "#a01830"   ,
         "textPreformat.foreground"                         : "#e4e4e4",
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────
         "titleBar.activeBackground"                        : "#000" ,
-        "titleBar.activeForeground"                        : "#a52d6f" ,
+        "titleBar.activeForeground"                        : "#b81d38" ,
         "titleBar.border"                                  : "#0000",
         "titleBar.inactiveBackground"                      : "#000" ,
-        "titleBar.inactiveForeground"                      : "#a52d6f" ,
+        "titleBar.inactiveForeground"                      : "#b81d38" ,
 
         //? ─── Tree & Misc ───────────────────────────────────────────────────────────────────
         "tree.indentGuidesStroke"                          : "#91919156",
         "walkThrough.embeddedEditorBackground"             : "#222222"  ,
-        "welcomePage.progress.background"                  : "#ae306566"    ,
+        "welcomePage.progress.background"                  : "#a0183066"    ,
         "welcomePage.tileBackground"                       : "#262626"  ,
         "widget.border"                                    : "#fff1"    ,
         "window.activeBorder"                              : "#1e1e1e"

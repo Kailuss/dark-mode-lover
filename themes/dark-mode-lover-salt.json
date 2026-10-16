@@ -32,7 +32,7 @@
         "menu.foreground"                                   : "#e4e4e4"  ,
         "menu.border"                                       : "#8d8d8d45",
         "menu.separatorBackground"                          : "#8d8d8d45",
-        "menu.selectionBackground"                          : "#848393"     ,
+        "menu.selectionBackground"                          : "#acabbb"     ,
         "menu.selectionForeground"                          : "#171717"  ,
 
         //? ─── Activity Bar ──────────────────────────────────────────────────────────────────
@@ -49,8 +49,8 @@
         "badge.foreground"                                 : "#171717",
 
         //? ─── Buttons ───────────────────────────────────────────────────────────────────────
-        "button.background"                                : "#848393"     ,
-        "button.foreground"                                : "#171717ee",
+        "button.background"                                : "#acabbb"     ,
+        "button.foreground"                                : "#171717",
         "button.hoverBackground"                           : "#dde"     ,
         "button.secondaryBackground"                       : "#fff2"    ,
         "button.secondaryForeground"                       : "#fff9"    ,
@@ -72,10 +72,10 @@
 
         //? ─── General ───────────────────────────────────────────────────────────────────────
         "descriptionForeground"                            : "#8d8d8d",
-        "focusBorder"                                      : "#848393"   ,
+        "focusBorder"                                      : "#acabbb"   ,
         "foreground"                                       : "#8d8d8d",
         "icon.foreground"                                  : "#8d8d8d",
-        "selection.background"                             : "#84839344"  ,
+        "selection.background"                             : "#acabbb44"  ,
 
         //? ─── Diff Editor ──────────────────────────────────────────────────────────────────
         "diffEditor.diagonalFill"                          : "#181818",
@@ -186,11 +186,11 @@
         "quickInput.foreground"                            : "#e4e4e4ee",
         "quickInputList.focusBackground"                   : "#dde"     ,
         "quickInputList.focusForeground"                   : "#171717"  ,
-        "quickInputList.focusIconForeground"               : "#848393"     ,
+        "quickInputList.focusIconForeground"               : "#acabbb"     ,
 
         //? ─── Extension Buttons ─────────────────────────────────────────────────────────────
         "extensionButton.prominentBackground"              : "#99a"   ,
-        "extensionButton.prominentForeground"              : "#1e202a",
+        "extensionButton.prominentForeground"              : "#171717",
         "extensionButton.prominentHoverBackground"         : "#fff"   ,
 
         //? ─── Git Decoration ────────────────────────────────────────────────────────────────
@@ -245,7 +245,7 @@
         "minimap.background"                               : "#1e1e1e"  ,
         "minimap.errorHighlight"                           : "#f66"     ,
         "minimap.findMatchHighlight"                       : "#69538099",
-        "minimap.selectionHighlight"                       : "#84839344"    ,
+        "minimap.selectionHighlight"                       : "#acabbb44"    ,
         "minimapSlider.background"                         : "#8d8d8d20",
         "minimapSlider.hoverBackground"                    : "#8d8d8d33",
         "minimapSlider.activeBackground"                   : "#8d8d8d55",
@@ -313,7 +313,7 @@
         "statusBarItem.prominentBackground"                : "#181818"  ,
         "statusBarItem.prominentHoverBackground"           : "#00000030",
         "statusBarItem.remoteBackground"                   : "#99a"     ,
-        "statusBarItem.remoteForeground"                   : "#262626cc",
+        "statusBarItem.remoteForeground"                   : "#171717",
 
         //? ─── Tabs ──────────────────────────────────────────────────────────────────────────
         "tab.activeBackground"                             : "#262626",
@@ -350,7 +350,7 @@
         //? ─── Text ──────────────────────────────────────────────────────────────────────────
         "textBlockQuote.background"                        : "#262626",
         "textLink.activeForeground"                        : "#dde"   ,
-        "textLink.foreground"                              : "#848393"   ,
+        "textLink.foreground"                              : "#acabbb"   ,
         "textPreformat.foreground"                         : "#e4e4e4",
 
         //? ─── Title Bar ─────────────────────────────────────────────────────────────────────
@@ -363,7 +363,7 @@
         //? ─── Tree & Misc ───────────────────────────────────────────────────────────────────
         "tree.indentGuidesStroke"                          : "#91919156",
         "walkThrough.embeddedEditorBackground"             : "#222222"  ,
-        "welcomePage.progress.background"                  : "#84839366"    ,
+        "welcomePage.progress.background"                  : "#acabbb66"    ,
         "welcomePage.tileBackground"                       : "#262626"  ,
         "widget.border"                                    : "#fff1"    ,
         "window.activeBorder"                              : "#1e1e1e"

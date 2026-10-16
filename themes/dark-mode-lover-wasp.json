@@ -30,7 +30,7 @@
         "menu.foreground"                                  : "#e4e4e4"  ,
         "menu.border"                                      : "#8d8d8d45",
         "menu.separatorBackground"                         : "#8d8d8d45",
-        "menu.selectionBackground"                         : "#b37800"  ,
+        "menu.selectionBackground"                         : "#dea042"  ,
         "menu.selectionForeground"                         : "#171717"  ,
         // ─── Activity Bar ──────────────────────────────────────────────────────────────────
         "activityBar.activeBorder"                         : "#fff"   ,
@@ -39,15 +39,15 @@
         "activityBar.foreground"                           : "#fc6"   ,
         "activityBar.inactiveForeground"                   : "#875100"   ,
         "activityBarBadge.background"                      : "#46e"   ,
-        "activityBarBadge.foreground"                      : "#fffc"  ,
+        "activityBarBadge.foreground"                      : "#ffffff"  ,
 
         // ─── Badge ─────────────────────────────────────────────────────────────────────────
         "badge.background"                                 : "#46ee",
-        "badge.foreground"                                 : "#fffe",
+        "badge.foreground"                                 : "#ffffff",
 
         // ─── Buttons ───────────────────────────────────────────────────────────────────────
-        "button.background"                                : "#b37800"  ,
-        "button.foreground"                                : "#171717ee",
+        "button.background"                                : "#dea042"  ,
+        "button.foreground"                                : "#171717",
         "button.hoverBackground"                           : "#ffcf70"  ,
         "button.secondaryBackground"                       : "#8d8d8d33",
         "button.secondaryForeground"                       : "#e4e4e4ff",
@@ -69,7 +69,7 @@
 
         // ─── General ───────────────────────────────────────────────────────────────────────
         "descriptionForeground"                            : "#8d8d8d"  ,
-        "focusBorder"                                      : "#b37800"  ,
+        "focusBorder"                                      : "#dea042"  ,
         "foreground"                                       : "#8d8d8d"  ,
         "icon.foreground"                                  : "#8d8d8d"  ,
         "selection.background"                             : "#4080ff20",
@@ -187,7 +187,7 @@
 
         // ─── Extension Buttons ─────────────────────────────────────────────────────────────
         "extensionButton.prominentBackground"              : "#39f"   ,
-        "extensionButton.prominentForeground"              : "#1e202a",
+        "extensionButton.prominentForeground"              : "#171717",
         "extensionButton.prominentHoverBackground"         : "#fac761",
 
         // ─── Git Decoration ────────────────────────────────────────────────────────────────
@@ -310,7 +310,7 @@
         "statusBarItem.prominentBackground"                : "#181818"  ,
         "statusBarItem.prominentHoverBackground"           : "#00000030",
         "statusBarItem.remoteBackground"                   : "#46e"     ,
-        "statusBarItem.remoteForeground"                   : "#262626cc",
+        "statusBarItem.remoteForeground"                   : "#ffffff",
 
         // ─── Tabs ──────────────────────────────────────────────────────────────────────────
         "tab.activeBackground"                             : "#262626",
