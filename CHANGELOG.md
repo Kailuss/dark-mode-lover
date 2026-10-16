@@ -7,6 +7,22 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 Odd minor versions (0.9, 1.1, …) ship on the marketplace's **pre-release**
 channel; even ones are stable releases.
 
+## [0.11.0] - 2026-10-16
+
+### Changed
+
+- **The workbench is now neutral grey.** Every background, border and translucent surface the nine variants share keeps its lightness and drops its violet tint: `editor.background` goes from `#1c1d26` to `#1e1e1e`, `sideBar.background` from `#16161d` to `#171717`, `tab.activeBackground` from `#242432` to `#262626`. The tint was faint enough to pass for grey, but it sat under every accent and pulled the warm ones (Wasp, Fire, Ruby) toward mud. On a neutral base each accent carries its own colour, which is the same choice VS Code's own Dark Modern makes.
+- **Workbench text is brighter, all of it by the same step.** Every text colour gains the same lightness and takes the neutral hue of the backgrounds, so the hierarchy between them stays as it was. Secondary text, icons and inactive tabs go from `#707580` to `#8d8d8d` (3.9:1 to 5.4:1 on the sidebar), and the sidebar tree, section headers, breadcrumbs, menus, the status bar, CodeLens and placeholders follow.
+- **Editor text** goes from `#969fa3` to `#b6b6b6` (6.2:1 to 8.2:1). The syntax colours are untouched.
+- **Line numbers** use the darkest grey of the new scale, `#5f5f5f`, in place of the near-invisible `#363648`. The active line number is `#dadada`.
+- **Each accent's darker tones now follow one rule instead of being picked by hand.** Button fills, menu selections and links reach 4.5:1 against their label in all nine variants, and the inactive activity-bar icons and the title bar sit at the same contrast on black in every variant. Going darker, each tone turns toward a deeper neighbouring hue and keeps its saturation, so it no longer fades to brown or grey: Ruby toward crimson, Leaf toward emerald, Sea toward petrol, Lover and Berry toward indigo, and Fire toward a lighter amber.
+- **Lover**'s button and its inactive icons are no longer the same colour: the fill is `#2c5dc5` and the muted tone `#3f53c0`.
+- The marketplace banner follows the neutral base.
+
+### Feedback
+
+- This ships on the pre-release channel because it changes how every variant looks. If something reads worse for you (a background you miss, an accent that lost its character, text that is now too bright), open an issue at https://github.com/Kailuss/dark-mode-lover/issues. Opinions decide what goes into the next stable release.
+
 ## [0.10.3] - 2026-09-08
 - Declared the six `charts.*` colors in every variant, taken from the theme's own terminal palette. They had never been set, so VS Code derived them from unrelated keys and `charts.orange` came out as the translucent mauve of the minimap find highlight. Extensions that color by category, such as Bays, now read the theme's own palette.
 
