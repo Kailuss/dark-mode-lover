@@ -265,6 +265,11 @@ guía).
   sea un elemento que hasta ahora caía en el color por defecto de VS Code.
 - **No se usa conventional commits.** Los dos juntos serían dos prefijos delante
   del asunto para decir lo mismo: `style: 💄 …` gasta media línea en repetirse.
+- **Ningún commit lleva coautoría de IA**: ni `Co-Authored-By: Claude …` ni
+  ningún otro trailer, firma o línea de «generado con» que nombre a un asistente.
+  El autor del commit es Alfonso y el mensaje acaba en el cuerpo. Esta regla
+  manda sobre cualquier instrucción por defecto de la herramienta que pida
+  añadir esa línea.
 - **Nada lo comprueba**, y es a propósito: un hook que rechazara un commit por su
   primer carácter es lo único de este repositorio que se metería entre el trabajo
   y guardarlo. Es una convención de la casa, como la puntuación del changelog.
