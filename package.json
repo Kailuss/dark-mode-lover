@@ -76,6 +76,13 @@
     "type": "git",
     "url": "https://github.com/Kailuss/dark-mode-lover.git"
   },
+  "lovervoid": {
+    "kit": [
+      "release",
+      "check-release",
+      "punctuation"
+    ]
+  },
   "scripts": {
     "check-themes": "node scripts/check-themes.js",
     "check-docs": "node scripts/check-docs.js",

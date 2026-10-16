@@ -1,8 +1,10 @@
+// @lovervoid/kit scripts/check-release.js: synced by `lovervoid sync`. Edit it in the kit, not here.
 // Asserts that the manifest and the changelog agree about what is being cut.
 //
-// A package meant to be published carries a version that has never been
-// published and a changelog entry that names it. The two halves fail at
-// opposite ends and neither one is loud where it happens.
+// The rule is the house's, written in every repo's guide: a package meant to be
+// published carries a version that has never been published and a changelog
+// entry that names it. The two halves fail at opposite ends and neither one is
+// loud where it happens.
 //
 // The VERSION is refused by `vsce publish` and by nothing else. `vsce package`
 // builds the same version as many times as it is asked, so a green `.vsix` says
