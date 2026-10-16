@@ -17,6 +17,7 @@ channel; even ones are stable releases.
 - **Line numbers** use the darkest grey of the new scale, `#5f5f5f`, in place of the near-invisible `#363648`. The active line number is `#dadada`.
 - **Each accent's darker tones now follow one rule instead of being picked by hand.** Button fills, menu selections and links reach 4.5:1 against their label in all nine variants, and the inactive activity-bar icons and the title bar sit at the same contrast on black in every variant. Going darker, each tone turns toward a deeper neighbouring hue and keeps its saturation, so it no longer fades to brown or grey: Ruby toward crimson, Leaf toward emerald, Sea toward petrol, Lover and Berry toward indigo, and Fire toward a lighter amber.
 - **Lover**'s button and its inactive icons are no longer the same colour: the fill is `#2c5dc5` and the muted tone `#3f53c0`.
+- New notification badges for five variants, each with dark text: **Berry** red (`#ee5060`), **Leaf** tree-bark brown (`#a8744c`), **Sea** light beach sand (`#ead5aa`), **Salt** sky blue (`#7cc6f0`) and **Ash** reddish orange (`#ec6a3e`).
 - The marketplace banner follows the neutral base.
 
 ### Feedback

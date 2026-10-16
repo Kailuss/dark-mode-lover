@@ -41,12 +41,12 @@
         "activityBar.border"                               : "#181818",
         "activityBar.foreground"                           : "#eef"   ,
         "activityBar.inactiveForeground"                   : "#5c5c6a"   ,
-        "activityBarBadge.background"                      : "#778"   ,
-        "activityBarBadge.foreground"                      : "#fff"   ,
+        "activityBarBadge.background"                      : "#7cc6f0"   ,
+        "activityBarBadge.foreground"                      : "#171717"   ,
 
         //? ─── Badge ─────────────────────────────────────────────────────────────────────────
-        "badge.background"                                 : "#778",
-        "badge.foreground"                                 : "#fff",
+        "badge.background"                                 : "#7cc6f0",
+        "badge.foreground"                                 : "#171717",
 
         //? ─── Buttons ───────────────────────────────────────────────────────────────────────
         "button.background"                                : "#848393"     ,

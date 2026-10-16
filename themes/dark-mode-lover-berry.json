@@ -41,11 +41,11 @@
         "activityBar.border"                               : "#181818",
         "activityBar.foreground"                           : "#c7f"   ,
         "activityBar.inactiveForeground"                   : "#713dc9"   ,
-        "activityBarBadge.background"                      : "#cd5"   ,
+        "activityBarBadge.background"                      : "#ee5060"   ,
         "activityBarBadge.foreground"                      : "#171717",
 
         //? ─── Badge ─────────────────────────────────────────────────────────────────────────
-        "badge.background"                                 : "#cd5"   ,
+        "badge.background"                                 : "#ee5060"   ,
         "badge.foreground"                                 : "#171717",
 
         //? ─── Buttons ───────────────────────────────────────────────────────────────────────
