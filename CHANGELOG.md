@@ -11,10 +11,16 @@ channel; even ones are stable releases.
 
 ### Changed
 
-- **Lover** is retuned role by role: the bright accent is `#47a3ff`, the muted accent (title bar, inactive activity-bar icons) `#006af5`, the accent line `#1f8fff`, the button fill `#215497` and the remote item `#2480db` with a dark label.
-- **Lover**'s notification badge is a deep rust (`#974021`) with a light label (`#f2e7e3`).
-- **Lover**'s inlay hints are `#70b8ff` for types and `#ffa947` for parameters.
-- **Wasp** follows its own accents everywhere: the sidebar title, button hover, quick-pick focus, active link, input toggles and peek highlights take the yellow accent line (`#fac761`); the text selection, minimap selection and quick-pick icon take the button fill (`#ffc572`); the prominent extension button matches the remote item (`#46e`, white label); the secondary button uses the same greys as the other variants.
+- Every variant is built from seven base colours: a bright accent, a muted accent, a button fill, its label, a button hover, and the badge with its label. Keys that did the same job in a variant now share one colour.
+- The tab border, progress bar, panel title border, active links and active input options use the bright accent.
+- The remote status item and the prominent extension button use the button fill and its label.
+- Button hover is its own colour in each variant.
+- The editor is the same in every variant: cursor and Ctrl links `#709bff`, type hints `#ffdb70`, parameter hints `#ffa947`, and blue peek and minimap highlights.
+- **Lover**: bright accent `#4ba3fb`, muted `#226fd3`, button `#215497`, badge `#974021` with a light label.
+- **Wasp**: bright accent `#fbc523`, muted `#a77511`, button `#fbcf4b` with a dark label, badge `#4b80fb`.
+- **Fire**, **Sea** and **Salt** have a light button with a dark label; **Ruby**, **Leaf**, **Berry** and **Ash** a deep button with a white label.
+- **Ruby** and **Berry** are less saturated (`#ec656d`, `#c582ef`), and every muted accent is darker.
+- **Salt** is pure white and neutral grey.
 
 ## [0.11.2] - 2026-10-16
 
