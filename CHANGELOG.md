@@ -14,6 +14,7 @@ channel; even ones are stable releases.
 - **Lover** is retuned role by role: the bright accent is `#47a3ff`, the muted accent (title bar, inactive activity-bar icons) `#006af5`, the accent line `#1f8fff`, the button fill `#215497` and the remote item `#2480db` with a dark label.
 - **Lover**'s notification badge is a deep rust (`#974021`) with a light label (`#f2e7e3`).
 - **Lover**'s inlay hints are `#70b8ff` for types and `#ffa947` for parameters.
+- **Wasp** follows its own accents everywhere: the sidebar title, button hover, quick-pick focus, active link, input toggles and peek highlights take the yellow accent line (`#fac761`); the text selection, minimap selection and quick-pick icon take the button fill (`#ffc572`); the prominent extension button matches the remote item (`#46e`, white label); the secondary button uses the same greys as the other variants.
 
 ## [0.11.2] - 2026-10-16
 
