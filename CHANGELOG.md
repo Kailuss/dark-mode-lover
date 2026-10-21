@@ -7,6 +7,14 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 Odd minor versions (0.9, 1.1, …) ship on the marketplace's **pre-release**
 channel; even ones are stable releases.
 
+## [0.11.3] - 2026-10-21
+
+### Changed
+
+- **Lover** is retuned role by role: the bright accent is `#47a3ff`, the muted accent (title bar, inactive activity-bar icons) `#006af5`, the accent line `#1f8fff`, the button fill `#215497` and the remote item `#2480db` with a dark label.
+- **Lover**'s notification badge is a deep rust (`#974021`) with a light label (`#f2e7e3`).
+- **Lover**'s inlay hints are `#70b8ff` for types and `#ffa947` for parameters.
+
 ## [0.11.2] - 2026-10-16
 
 ### Changed
