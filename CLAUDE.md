@@ -185,6 +185,36 @@ escrito aparece en una de nueve.
   escrito. El check reporta el lado menor a propósito: dicho como «a las otras
   ocho les falta» acusa a los inocentes y esconde el fichero que hay que abrir.
 
+## Cada variante son SIETE colores, y lo demás se deriva
+
+Las 37 claves que cambian de una variante a otra salen todas de siete bases, y
+ninguna lleva un color propio: **vivo**, **apagado**, **señalado** (el relleno del
+botón), **texto** (lo que va sobre el señalado), **hover** (el botón bajo el
+puntero), **insignia** y su **tinta**. El resto de la paleta es igual en las
+nueve, **el editor incluido**: el cursor, las pistas y los resaltados del peek no
+son del acento.
+
+| base | la llevan |
+|---|---|
+| vivo | icono activo, enlaces, título de la barra lateral, borde de pestaña, progreso, sash, coincidencias de lista, opción activa (al `33`/`55`), fila enfocada del quick pick |
+| apagado | barra de título, iconos inactivos, command center |
+| señalado | botón, foco, selección de menú, remoto, Install, selección de texto (`44`), progreso de bienvenida (`66`) |
+| texto | sobre el botón, el menú, el remoto e Install |
+| hover | `button.hoverBackground` y `extensionButton.prominentHoverBackground` |
+| insignia · tinta | las dos insignias |
+
+- **Una clave que se aparte de su base es una deriva**, y es exactamente cómo se
+  llegó a Wasp con dieciocho colores sueltos —restos del azul de Lover y casi
+  copias de sus propios amarillos— mientras las otras ocho tenían cero. Si una
+  clave necesita otro color, lo que falta es una base, no una excepción.
+- **Las proporciones salen de Lover y Wasp**, medidas en OKLCH, y son dos patrones
+  y nada más: relleno oscuro con texto blanco (como Lover) o relleno claro con
+  texto oscuro (como Wasp). Apagado, señalado y hover toman la luminosidad de su
+  referencia y el croma del vivo de cada familia por la proporción que guarda la
+  referencia; el vivo no pasa de C 0.17. El tono no se mueve en ningún rol.
+- **Nada de esto lo comprueba la puerta**: `check-themes` afirma que las nueve
+  tienen las mismas claves, no que cada una siga a su base.
+
 ## La estructura de un fichero de tema
 
 Sigue la práctica de **Dark Modern**, el propio tema de VS Code: una capa de
