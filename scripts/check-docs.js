@@ -48,10 +48,11 @@ function isTemplate(ref) {
  * `plan*.md` is skipped by the same pattern that keeps it out of the `.vsix`:
  * work notes are a snapshot of a moment and are allowed to name what that moment
  * had. `CHANGELOG.md` is skipped for the same reason — a released entry
- * describes the code as it was.
+ * describes the code as it was. `.remember/` holds a plugin's session notes:
+ * git-ignored, and they cite paths from whichever repo the session was in.
  */
 function docFiles(dir, out = []) {
-	const SKIP = new Set(['node_modules', 'dist', 'out', '.git', '.vscode-test']);
+	const SKIP = new Set(['node_modules', 'dist', 'out', '.git', '.vscode-test', '.remember']);
 	for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
 		if (SKIP.has(entry.name)) { continue; }
 		const full = path.join(dir, entry.name);
