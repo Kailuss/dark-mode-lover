@@ -40,7 +40,7 @@
         "activityBar.background"                           : "#000"   ,
         "activityBar.border"                               : "#181818",
         "activityBar.foreground"                           : "#fff"   ,
-        "activityBar.inactiveForeground"                   : "#808080"  ,
+        "activityBar.inactiveForeground"                   : "#4d4d4d"  ,
         "activityBarBadge.background"                      : "#7bd4f4"   ,
         "activityBarBadge.foreground"                      : "#000405"   ,
         //? ─── Modern UI (workbench.experimental.modernUI) ─────────────────────────────────
