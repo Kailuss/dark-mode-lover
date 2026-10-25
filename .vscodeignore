@@ -40,3 +40,7 @@ themes/dark-mode-hater.json
 
 # The quality gate: not for the end user.
 scripts/
+
+# The Remember plugin's session notes. Git-ignored, but vsce packs from the
+# disk and not from the index, so without this line they travel.
+.remember/
