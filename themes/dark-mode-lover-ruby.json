@@ -44,9 +44,10 @@
         "activityBarBadge.background"                      : "#3bd"   ,
         "activityBarBadge.foreground"                      : "#171717",
         //? ─── Modern UI (workbench.experimental.modernUI) ─────────────────────────────────
-        // Los bordes de las tarjetas toman el fondo de la barra lateral, y los iconos de la
-        // Activity Bar cambian de color sin fondo, como en la clásica. Sin asas «···».
-        "modernActivityBar.border"                         : "#171717",
+        // Los bordes de las tarjetas toman el fondo de la barra lateral, salvo la Activity
+        // Bar, que no lleva ninguno. Sus iconos cambian de color sin fondo, como en la
+        // clásica. Sin asas «···».
+        "modernActivityBar.border"                         : "#0000",
         "editor.border"                                    : "#171717",
         "surface.border"                                   : "#171717",
         "modernActivityBarItem.activeBackground"           : "#0000",
