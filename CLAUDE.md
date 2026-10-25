@@ -187,7 +187,7 @@ escrito aparece en una de nueve.
 
 ## Cada variante son SIETE colores, y lo demás se deriva
 
-Las 37 claves que cambian de una variante a otra salen todas de siete bases, y
+Las 36 claves que cambian de una variante a otra salen todas de siete bases, y
 ninguna lleva un color propio: **vivo**, **apagado**, **señalado** (el relleno del
 botón), **texto** (lo que va sobre el señalado), **hover** (el botón bajo el
 puntero), **insignia** y su **tinta**. El resto de la paleta es igual en las
@@ -196,12 +196,17 @@ son del acento.
 
 | base | la llevan |
 |---|---|
-| vivo | hover de la Activity Bar moderna (el icono activo es blanco en las nueve), enlaces, título de la barra lateral, borde de pestaña, progreso, sash, coincidencias de lista, opción activa (al `33`/`55`), fila enfocada del quick pick |
+| vivo | hover de la Activity Bar moderna (el icono activo es blanco en las nueve), enlaces, título de la barra lateral, borde de pestaña, progreso, sash, coincidencias de lista, opción activa (al `33`/`55`), fila enfocada del quick pick, texto del remoto |
 | apagado | barra de título, iconos inactivos (al 60 % sobre el negro, ya opaco), command center |
-| señalado | botón, foco, selección de menú, remoto, Install, selección de texto (`44`), progreso de bienvenida (`66`) |
-| texto | sobre el botón, el menú, el remoto e Install |
+| señalado | botón, foco, selección de menú, Install, selección de texto (`44`), progreso de bienvenida (`66`) |
+| texto | sobre el botón, el menú e Install |
 | hover | `button.hoverBackground` y `extensionButton.prominentHoverBackground` |
 | insignia · tinta | las dos insignias |
+
+**La barra de estado no se tiñe nunca**: se queda en `#000` también depurando y con
+una ventana remota, y lo que lleva el color es el TEXTO. El de depurar es el mismo
+naranja en las nueve (`statusBar.debuggingForeground`), y el del remoto es el vivo,
+porque el señalado está pensado para rellenar y sobre negro no se lee.
 
 - **Una clave que se aparte de su base es una deriva**, y es exactamente cómo se
   llegó a Wasp con dieciocho colores sueltos —restos del azul de Lover y casi
