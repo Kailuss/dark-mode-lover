@@ -7,6 +7,19 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 Odd minor versions (0.9, 1.1, …) ship on the marketplace's **pre-release**
 channel; even ones are stable releases.
 
+## [0.11.4] - 2026-10-25
+
+### Added
+
+- Support for VS Code's modern UI (`workbench.experimental.modernUI`): the borders of the Activity Bar, editor, side bars and panel cards take the side bar background (`#171717`).
+- The grip dots on the sashes between the modern UI cards are hidden.
+- Activity Bar items in the modern UI have no background on hover or when active. The hovered icon takes the bright accent.
+
+### Changed
+
+- The active Activity Bar icon is white in every variant.
+- Inactive Activity Bar icons are darker in every variant.
+
 ## [0.11.3] - 2026-10-21
 
 ### Changed
