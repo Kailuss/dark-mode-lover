@@ -312,16 +312,16 @@
         // ─── Status Bar ────────────────────────────────────────────────────────────────────
         "statusBar.background"                             : "#000"     ,
         "statusBar.border"                                 : "#010101"  ,
-        "statusBar.debuggingBackground"                    : "#f29e74"  ,
-        "statusBar.debuggingForeground"                    : "#262626"  ,
+        "statusBar.debuggingBackground"                    : "#000"     ,
+        "statusBar.debuggingForeground"                    : "#f29e74"  ,
         "statusBar.foreground"                             : "#8f8f8f"    ,
         "statusBar.noFolderBackground"                     : "#1e1e1e"  ,
         "statusBarItem.activeBackground"                   : "#8d8d8d33",
         "statusBarItem.hoverBackground"                    : "#8d8d8d33",
         "statusBarItem.prominentBackground"                : "#181818"  ,
         "statusBarItem.prominentHoverBackground"           : "#00000030",
-        "statusBarItem.remoteBackground"                   : "#fbcf4b"  ,
-        "statusBarItem.remoteForeground"                   : "#281e01",
+        "statusBarItem.remoteBackground"                   : "#000"     ,
+        "statusBarItem.remoteForeground"                   : "#fbc523"  ,
 
         // ─── Tabs ──────────────────────────────────────────────────────────────────────────
         "tab.activeBackground"                             : "#262626",
