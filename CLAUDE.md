@@ -196,8 +196,8 @@ son del acento.
 
 | base | la llevan |
 |---|---|
-| vivo | icono activo, enlaces, título de la barra lateral, borde de pestaña, progreso, sash, coincidencias de lista, opción activa (al `33`/`55`), fila enfocada del quick pick |
-| apagado | barra de título, iconos inactivos, command center |
+| vivo | hover de la Activity Bar moderna (el icono activo es blanco en las nueve), enlaces, título de la barra lateral, borde de pestaña, progreso, sash, coincidencias de lista, opción activa (al `33`/`55`), fila enfocada del quick pick |
+| apagado | barra de título, iconos inactivos (al 60 % sobre el negro, ya opaco), command center |
 | señalado | botón, foco, selección de menú, remoto, Install, selección de texto (`44`), progreso de bienvenida (`66`) |
 | texto | sobre el botón, el menú, el remoto e Install |
 | hover | `button.hoverBackground` y `extensionButton.prominentHoverBackground` |
