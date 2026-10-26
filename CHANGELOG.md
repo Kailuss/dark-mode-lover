@@ -7,6 +7,14 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 Odd minor versions (0.9, 1.1, …) ship on the marketplace's **pre-release**
 channel; even ones are stable releases.
 
+## [0.11.5] - 2026-10-26
+
+### Changed
+
+- The status bar stays black while debugging: the text turns orange instead (`statusBar.debuggingForeground`).
+- The remote status item has no fill: its text takes the bright accent (`statusBarItem.remoteForeground`).
+- The modern UI Activity Bar has no border (`modernActivityBar.border`).
+
 ## [0.11.4] - 2026-10-25
 
 ### Added
